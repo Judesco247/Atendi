@@ -52,8 +52,44 @@ import globe from "./globe.png";
 import service_header from "./services-header.png";
 import difference_image from "./difference-image.png";
 import Component from "./Components.png";
+import News_header from "./News-header.png";
+import latest1 from "./latest1.png";
+import latest2 from "./latest2.png";
+import latest3 from "./latest3.png";
+import latest4 from "./latest4.png";
+import latest5 from "./latest5.png";
+import latest6 from "./latest6.png";
+import latest7 from "./latest7.png";
+import latest8 from "./latest8.png";
+import latest9 from "./latest9.png";
+import latest10 from "./latest10.png";
+import Contact_header from "./Contact-header.png";
+import discover1 from "./discover1.png";
+import discover2 from "./discover2.png";
+import discover3 from "./discover3.png";
+import discover4 from "./discover4.png";
+import discover5 from "./discover5.png";
+import case_header from "./case-header.png";
 
 export {
+  case_header,
+  discover1,
+  discover2,
+  discover3,
+  discover4,
+  discover5,
+  Contact_header,
+  latest1,
+  latest2,
+  latest3,
+  latest4,
+  latest5,
+  latest6,
+  latest7,
+  latest8,
+  latest9,
+  latest10,
+  News_header,
   Component,
   difference_image,
   service_header,

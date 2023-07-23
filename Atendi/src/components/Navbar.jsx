@@ -29,13 +29,15 @@ const  Navbar = () => {
             <Link to="/services">Services</Link>
            </li>
            <li className='font-kollektif font-normal cursor-pointer text-[16px] mr-0 mr-10 '>
-            <Link to="/">Case Studies</Link>
+            <Link to="/case-studies">Case Studies</Link>
            </li>
            <li className='font-kollektif font-normal cursor-pointer text-[16px] mr-0 mr-10 '>
-            <Link to="/">News</Link>
+            <Link to="/news">News</Link>
            </li>
            <li className='font-kollektif font-normal cursor-pointer text-[16px] mr-0 mr-10 '>
-            <Link to="/">Contact</Link>
+            <button className="w-[150px] py-3 px-3 text-[13px] font-bold text-color0 px-4 py-2 border-2 border-color0 hover:text-white hover:bg-color0 font-kollektif-400 ">
+              <Link to="/contact-us">Contact Us</Link>
+              </button>
            </li>
         {/* ))} */}
       </ul>

@@ -1,0 +1,30 @@
+import React from 'react'
+import styles from '../style'
+import { Navbar, Caseheader, Project,Project2 } from '../components'
+
+const Case = () => (
+    <div className='bg-dimWhite w-full overflow-hidden'>
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <div className={`${styles.boxWidth}`}>
+                <Navbar />
+            </div>
+        </div>
+        <div className={`${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+                <Caseheader />
+            </div>
+        </div>
+        <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+                <Project />
+            </div>
+        </div>
+        <div className={`bg-color12 ${styles.paddingX} ${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+                <Project2 />
+            </div>
+        </div>
+    </div>
+  )
+
+export default Case

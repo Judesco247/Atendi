@@ -14,7 +14,7 @@ const Wedo = () => (
         consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit<br />
         amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum</p>
     </div>
-    <div class="py-6 p-80 items-center justify-center"><hr class="border-1 border-color2 mt-5 mb-4" /></div>
+    <div class="py-6 p-80 items-center justify-center"><hr class="border-2 mt-5 mb-4" /></div>
   </div>
 
 

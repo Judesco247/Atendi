@@ -19,8 +19,20 @@ import Serviceheader from "./Serviceheader";
 import Wedo from "./Wedo";
 import Difference from "./Difference";
 import Industries from "./Industries";
+import Newsheader from "./Newsheader";
+import Latest from "./Latest";
+import Contactheader from "./Contactheader";
+import Contactwhite from "./Contactwhite";
+import Discover from "./Discover";
+import Caseheader from "./Caseheader";
+import Project from "./Project";
+import Project2 from "./Project2";
 
 export {
+  Project2,
+  Project,
+  Caseheader,
+  Discover,
   Industries,
   Difference,
   Wedo,
@@ -42,4 +54,8 @@ export {
   Plans,
   Leadership,
   Contact,
+  Newsheader,
+  Latest,
+  Contactheader,
+  Contactwhite,
 };
