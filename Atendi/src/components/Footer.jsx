@@ -2,7 +2,7 @@ import React from 'react'
 import { logo, globe } from '../assets'
 
 const Footer = () => (
-  <footer class="py-6  mt-20 mb-20 p-4">
+  <footer class="py-6  mt-12 mb-20 p-4">
     <div class="flex flex-col mb-4">
       <img src={logo} alt='atendi' className='w-[77px] h-[81px]' />
     </div>

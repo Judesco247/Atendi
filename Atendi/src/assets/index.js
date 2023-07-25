@@ -70,8 +70,18 @@ import discover3 from "./discover3.png";
 import discover4 from "./discover4.png";
 import discover5 from "./discover5.png";
 import case_header from "./case-header.png";
+import home_banner from "./home-banner.gif";
+import cloud_img from "./cloud-img.png";
+import case_study1 from "./case-study1.png";
+import case_study2 from "./case-study2.png";
+import case_study3 from "./case-study3.png";
 
 export {
+  case_study1,
+  case_study2,
+  case_study3,
+  cloud_img,
+  home_banner,
   case_header,
   discover1,
   discover2,

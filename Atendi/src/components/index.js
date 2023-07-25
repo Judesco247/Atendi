@@ -27,8 +27,14 @@ import Discover from "./Discover";
 import Caseheader from "./Caseheader";
 import Project from "./Project";
 import Project2 from "./Project2";
+import Project3 from "./Project3";
+import CaseBox from "./CaseBox";
+import CaseStudy from "./CaseStudy";
 
 export {
+  CaseStudy,
+  CaseBox,
+  Project3,
   Project2,
   Project,
   Caseheader,

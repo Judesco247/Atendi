@@ -1,76 +1,76 @@
 import React from 'react'
 
 const Project = () => (
-    <div>
+  <div>
     <div class="flex flex-cols-2 mt-20">
-  <div class="ml-16 flex">
-    <h1 className='text-color1 text-[25px] font-bold font-kollektif-400'>Project Overview</h1>
+      <div class="ml-16 flex w-[254px]">
+        <h1 className='text-color1 text-[24px] font-bold font-kollektif-400'>Project Overview</h1>
+      </div>
+      <div class="ml-24 grid grid-cols-2 grid-rows-3 gap-4 w-[531px]">
+        <div>
+          <p className="text-color11 text-[12px] font-Graphik-400 pb-6">Client Name <br />
+            <span className='font-bold text-color10'>Alluvium Group of Company</span>
+          </p>
+        </div>
+        <div className='ml-16'>
+          <p className="text-color11 text-[12px] font-Graphik-400 pb-6">Team<br />
+            <span className='font-bold text-color10'>5 members</span>
+          </p>
+        </div>
+
+        <div className='mb-5'>
+          <p className="text-color11 text-[12px] font-kollektif-400 pb-6">Industry <br />
+            <span className='font-bold text-color10'>Education</span>
+          </p>
+        </div>
+        <div className='ml-16 mb-5'>
+          <p className="text-color11 text-[12px] font-kollektif-400 pb-6">Duration<br />
+            <span className='font-bold text-color10'>Ongoing</span>
+          </p>
+        </div>
+
+        <div className='mb-5'>
+          <p className="text-color11 text-[12px] font-kollektif-400 pb-6">Services <br />
+            <span className='font-bold text-color10'>Knowledge management</span>
+          </p>
+        </div>
+        <div className='ml-16 mb-5'>
+          <p className="text-color11 text-[12px] font-kollektif-400 pb-6">Tools<br />
+            <span className='font-bold text-color10'>Salesforce, HubSpot</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row">
+      <div className='ml-16 flex pt-5 pb-6 w-[254px]'>
+        <h1 className='text-color1 text-[15px] font-bold font-kollektif-400'>About Client</h1>
+      </div>
+      <div className='ml-16 grid pt-5 pb-6 w-[531px]'>
+        <p className="text-color2 text-[13px] font-kollektif-400 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Duis sit vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula cursus.
+          dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum
+          dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+      </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row mb-12">
+      <div className='ml-16 flex pt-5 pb-6 w-[254px]'>
+        <h1 className='text-color1 text-[15px] font-bold font-kollektif-400'>Business Goals</h1>
+      </div>
+      <div className='ml-16 grid pt-5 pb-6 w-[531px]'>
+        <p className="text-color2 text-[13px] font-kollektif-400 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+          sit vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula cursus.
+          dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet, consectetur</p>
+      </div>
+    </div>
+
+
   </div>
-  <div class="ml-24 grid grid-cols-2 grid-rows-3 gap-4">
-    <div>
-      <p className="text-color11 text-[12px] font-Graphik-400 pb-6">Client Name <br />
-        <span className='font-bold text-color10'>Alluvium Group of Company</span>
-        </p>
-    </div>
-    <div className='ml-16'>
-    <p className="text-color11 text-[12px] font-Graphik-400 pb-6">Team<br /> 
-    <span className='font-bold text-color10'>5 members</span>
-    </p>
-    </div>
 
-    <div className='mb-5'>
-      <p className="text-color11 text-[12px] font-kollektif-400 pb-6">Industry <br />
-        <span className='font-bold text-color10'>Education</span>
-        </p>
-    </div>
-    <div className='ml-16 mb-5'>
-    <p className="text-color11 text-[12px] font-kollektif-400 pb-6">Duration<br /> 
-    <span className='font-bold text-color10'>Ongoing</span>
-    </p>
-    </div>
-
-    <div className='mb-5'>
-      <p className="text-color11 text-[12px] font-kollektif-400 pb-6">Services <br />
-        <span className='font-bold text-color10'>Knowledge management</span>
-        </p>
-    </div>
-    <div className='ml-16 mb-5'>
-    <p className="text-color11 text-[12px] font-kollektif-400 pb-6">Tools<br /> 
-    <span className='font-bold text-color10'>Salesforce, HubSpot</span>
-    </p>
-    </div>
-  </div>
-</div>
-
-<div class="flex flex-col lg:flex-row">
-    <div className='ml-16 flex pt-5 pb-6 w-[224px]'>
-    <h1 className='text-color1 text-[15px] font-bold font-kollektif-400'>About Client</h1>
-    </div>
-  <div className='ml-16 grid pt-5 pb-6 w-[531px]'>
-  <p className="text-color2 text-[13px] font-kollektif-400 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-  Duis sit vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet, consectetur 
-  adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula cursus. 
-  dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, 
-  consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum 
-  dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-  </div>
-</div>
-
-<div class="flex flex-col lg:flex-row mb-12">
-    <div className='ml-16 flex pt-5 pb-6 w-[224px]'>
-    <h1 className='text-color1 text-[15px] font-bold font-kollektif-400'>Business Goals</h1>
-    </div>
-  <div className='ml-16 grid pt-5 pb-6 w-[531px]'>
-  <p className="text-color2 text-[13px] font-kollektif-400 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis 
-  sit vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet, consectetur 
-  adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula cursus. 
-  dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet, consectetur</p>
-  </div>
-  </div>
-
-  
-</div>
-
-  )
+)
 
 export default Project

@@ -1,10 +1,11 @@
 import styles from '../style';
-import {discount, robot, banner, amazon, chime, ebay, googles, openwave, pinterest, hubspot, salesforce, } from '../assets';
+import {discount, robot, banner, amazon, chime, ebay, googles, openwave, pinterest, hubspot, salesforce, home_banner } from '../assets';
 import GetStarted from './GetStarted';
 
 const Hero = () => (
   <div className="container mx-auto">
-    <img className='w-[1600px] h-[920px]' src="https://s3-alpha-sig.figma.com/img/6a73/cb5e/3f7e573c33b92244863c3a6767fa5ac2?Expires=1687737600&Signature=E4qaPYW0vbHgtcMdH-cu-Bs5onpG~OQ8PTVhtFe9tV9lzFK93udKVk~Zv8k5aq1scifScsgXDSTBXy7v3Gn17VBJZoz2E3RY2B5NdLjLUVJ4Jy5iXmWyO5sCyl-A-s00-SIX0yqziJkEDeT7cwJWGMyvLWxA7mmXac2YDRJ-upEQIpZz0SDftoRbzNvK1mM3EExBONewHJeA4BVKMaV8ga-BuXYoyuIFiWX6xiuf4sZQF0JDR~D9ApfVY0mMx~v45oBZjc1RvjAvZelxY5jFwGOsEwRczewC9QtJGWhFFEggiSwrcxO7yc3nlNs-l4IKTXY5av4sXTV4UvPyLpqyMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="banner" />
+    {/* <img className='w-[1600px] h-[920px]' src="https://s3-alpha-sig.figma.com/img/6a73/cb5e/3f7e573c33b92244863c3a6767fa5ac2?Expires=1687737600&Signature=E4qaPYW0vbHgtcMdH-cu-Bs5onpG~OQ8PTVhtFe9tV9lzFK93udKVk~Zv8k5aq1scifScsgXDSTBXy7v3Gn17VBJZoz2E3RY2B5NdLjLUVJ4Jy5iXmWyO5sCyl-A-s00-SIX0yqziJkEDeT7cwJWGMyvLWxA7mmXac2YDRJ-upEQIpZz0SDftoRbzNvK1mM3EExBONewHJeA4BVKMaV8ga-BuXYoyuIFiWX6xiuf4sZQF0JDR~D9ApfVY0mMx~v45oBZjc1RvjAvZelxY5jFwGOsEwRczewC9QtJGWhFFEggiSwrcxO7yc3nlNs-l4IKTXY5av4sXTV4UvPyLpqyMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="banner" /> */}
+    <img className='w-[1600px] h-[920px]' src={home_banner} alt="banner" />
     <div className="flex-[1.5] max-w-[300px] justify-start item-start rounded-lg shadow-lg p-8 mb-8">
       <h1 className="ml-24 w-[1151px] h-[154px] text-[50px] text-white font-bold font-kollektif-700 mb-4 absolute mt-[-880px]">Empowering Customer Engagement <br /> Through Technology</h1>
       <hr className="ml-24 w-[769px] h-2 border-color4 mb-4 absolute mt-[-700px]" />
