@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { logo } from '../assets';
+import { logo, close, menu } from '../assets';
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="flex pt-3 justify-between items-center navbar md:w-[1280px] w-[428px] md:h-[81px] h-[75px]
        l-[160px] t-[10px]">
          {/* <nav className="flex items-center justify-between pt-5"></nav> */}
-         <img src={open ? "./src/assets/close.svg" : "./src/assets/menu.svg"} className="md:hidden  fixed right-5 cursor-pointer z-20 top-6 text-black" onClick={() => setopen(!open)} />
+         <img src={open ? close : menu} className="md:hidden  fixed right-5 cursor-pointer z-20 top-6 text-black" onClick={() => setopen(!open)} />
          <img src={logo} alt="logo" className="w-77 h-[81px]" />
          <ul className={`bg-color7 backdrop-blur-md  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 ${!open ? 'right-[-100%] ' : 'right-0'}`}>
 
