@@ -17,9 +17,13 @@ import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
+import facebook2 from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
+import instagram2 from "./instagram.svg";
+import linkedin2 from "./linkedin.svg";
+import twitter2 from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
@@ -69,14 +73,28 @@ import discover2 from "./discover2.png";
 import discover3 from "./discover3.png";
 import discover4 from "./discover4.png";
 import discover5 from "./discover5.png";
+import discover6 from "./discover6.png";
+import discover7 from "./discover7.png";
 import case_header from "./case-header.png";
 import home_banner from "./home-banner.gif";
 import cloud_img from "./cloud-img.png";
 import case_study1 from "./case-study1.png";
 import case_study2 from "./case-study2.png";
 import case_study3 from "./case-study3.png";
+import m_home_header from "./mHome-header.png";
+import about_us_mobile from "./about-us-mobile.png";
+import service_header_mobile from "./service-header-mobile.png";
+import case_header_mobile from "./case-header-mobile.png";
+import news_header_mobile from "./news-header-mobile.png";
+import contact_header_mobile from "./contact-header-mobile.png";
 
 export {
+  contact_header_mobile,
+  news_header_mobile,
+  case_header_mobile,
+  service_header_mobile,
+  about_us_mobile,
+  m_home_header,
   case_study1,
   case_study2,
   case_study3,
@@ -88,6 +106,8 @@ export {
   discover3,
   discover4,
   discover5,
+  discover6,
+  discover7,
   Contact_header,
   latest1,
   latest2,
@@ -151,6 +171,10 @@ export {
   instagram,
   linkedin,
   twitter,
+  facebook2,
+  instagram2,
+  linkedin2,
+  twitter2,
   people01,
   people02,
   people03,

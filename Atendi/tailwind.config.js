@@ -29,6 +29,10 @@ module.exports = {
         kollektif:["Kollektif"],
         // poppins: ["Poppins", "sans-serif"],
       },
+      backgroundImage: {
+        'hero-bg': "url('./src/assets/home-banner.gif')",
+        'mhome-bg':"url('./src/assets/mHome-header.png')"
+      },
     },
     screens: {
       xs: "480px",

@@ -2,15 +2,15 @@ import React from 'react'
 import {user, business, knowledge, integration, management, arrow,} from "../assets";
 
 const CardDeal = () => (
-  <div class="grid grid-cols-3 grid-rows-2 gap-4 mt-20 mb-20 bg-color7 h-[600px]">
-  <div class="container mx-auto p-4">
+  <div class="md:grid grid-cols-3 grid-rows-2 gap-4 mt-20 mb-20 bg-color7">
+  <div class="container mx-auto mb-10">
   <h5 className='ml-3 mb-4 text-color1 text-[25px] font-bold font-kollektif-400'>Our Services</h5>
   <p className="ml-3 w-[300px] text-color2 text-[13px] font-kollektif-400">Our services are designed to 
   empower businesses of all sizes with the tools they need to optimize operations, enhance data insights, 
   and create a seamless customer experience. From knowledge management to project management, we deliver 
   innovative solutions that drive results</p>
   </div>
-  <div class="p-4 bg-white">
+  <div class="mb-6 bg-white">
   <h5 className='ml-3 mb-4 text-color6 text-[15px] font-bold font-kollektif-400'>
     <span><img src={user} alt="bluetick" className="" /></span>User Research</h5>
     <p className="ml-3 w-[300px] text-color2 text-[13px] font-kollektif-400">Our user research service 
@@ -23,7 +23,7 @@ const CardDeal = () => (
     </div>
   </div>
 
-  <div class="p-4 bg-white">
+  <div class="mb-6 bg-white">
   <h5 className='ml-3 mb-4 text-color6 text-[15px] font-bold font-kollektif-400'>
     <span><img src={business} alt="bluetick" className="" /></span>Business Analysis</h5>
     <p className="ml-3 w-[300px] text-color2 text-[13px] font-kollektif-400">Our business analysis services 
@@ -35,7 +35,7 @@ const CardDeal = () => (
     </div>
   </div>
 
-  <div class="p-4 bg-white">
+  <div class="mb-6 bg-white">
   <h5 className='ml-3 mb-4 text-color6 text-[15px] font-bold font-kollektif-400'>
     <span><img src={knowledge} alt="bluetick" className="" /></span>Knowledge Management</h5>
     <p className="ml-3 w-[300px] text-color2 text-[13px] font-kollektif-400">We help businesses capture, organize, 
@@ -46,7 +46,7 @@ const CardDeal = () => (
     </div>
   </div>
 
-  <div class="p-4 bg-white">
+  <div class="mb-6 bg-white">
   <h5 className='ml-3 mb-4 text-color6 text-[15px] font-bold font-kollektif-400'>
     <span><img src={integration} alt="bluetick" className="" /></span>Integration</h5>
     <p className="ml-3 w-[300px] text-color2 text-[13px] font-kollektif-400">We provide integration services to help 
@@ -57,7 +57,7 @@ const CardDeal = () => (
     </div>
   </div>
 
-  <div class="p-4 bg-white">
+  <div class="mb-6 bg-white">
   <h5 className='ml-3 mb-4 text-color6 text-[15px] font-bold font-kollektif-400'>
     <span><img src={management} alt="bluetick" className="" /></span>Project Management</h5>
     <p className="ml-3 w-[300px] text-color2 text-[13px] font-kollektif-400">Our project management services help businesses 

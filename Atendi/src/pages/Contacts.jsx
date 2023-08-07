@@ -20,7 +20,7 @@ const Contacts = () => (
             </div>
         </div>
         <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Discover />
             </div>
         </div>

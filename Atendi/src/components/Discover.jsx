@@ -2,51 +2,51 @@ import React from 'react'
 import { discover1, discover2, discover3, discover4, discover5 } from '../assets'
 
 const Discover = () => (
-    <div className='ml-3 container mx-auto mb-20'>
+    <div className='md:ml-3 container mx-auto mb-20'>
         <h5 className='mt-20 text-color1 text-[25px] font-bold font-kollektif-700'>Discover More</h5>
-        <div class="grid grid-cols-5 gap-1 mt-5 items-center">
+        <div class="md:grid grid-cols-5 gap-1 mt-5 items-center">
 
-            <a href="#" class="cursor-pointer text-color1 hover:text-background">
-                <div class="container mx-auto">
-                    <img src={discover1} alt="bluetick" className="mb-2" />
+            <a href="#" class="cursor-pointer text-color1 hover:text-background md:w-[250px] w-[428px]">
+                <div class="container mx-auto md:w-[250px] w-[380px]">
+                    <img src={discover1} alt="bluetick" className="md:w-[222px] w-[372px] md:h-[160px] h-[173px]" />
                     <div className="ml-3 flex items-center mt-[20px]">
-                        <a href="#" class="cursor-pointer  font-kollektif-700 text-[13px] font-semibold">Home </a>
+                        <a href="#" class="cursor-pointer  font-kollektif-700 text-[13px] md:font-semibold font-bold">Home </a>
                     </div>
                 </div>
             </a>
 
-            <a href="#" class="cursor-pointer text-color1 hover:text-background">
-                <div class="container mx-auto">
-                    <img src={discover2} alt="bluetick" className="mb-2" />
+            <a href="#" class="cursor-pointer text-color1 hover:text-background md:w-[250px] w-[428px]">
+                <div class="container mx-auto md:w-[250px] w-[380px] mt-6">
+                    <img src={discover2} alt="bluetick" className="md:w-[222px] w-[372px] md:h-[160px] h-[173px]" />
                     <div className="ml-3 flex items-center mt-[20px]">
-                        <a href="#" class="cursor-pointer  font-kollektif-700 text-[13px] font-semibold">About us </a>
+                        <a href="#" class="cursor-pointer  font-kollektif-700 text-[13px] md:font-semibold font-bold">About Us </a>
                     </div>
                 </div>
             </a>
 
-            <a href="#" class="cursor-pointer text-color1 hover:text-background">
-                <div class="container mx-auto">
-                    <img src={discover3} alt="bluetick" className="mb-2" />
+            <a href="#" class="cursor-pointer text-color1 hover:text-background md:w-[250px] w-[428px]">
+                <div class="container mx-auto md:w-[250px] w-[380px] mt-6">
+                    <img src={discover3} alt="bluetick" className="md:w-[222px] w-[372px] md:h-[160px] h-[173px]" />
                     <div className="ml-3 flex items-center mt-[20px]">
-                        <a href="#" class="cursor-pointer  font-kollektif-700 text-[13px] font-semibold">Services </a>
+                        <a href="#" class="cursor-pointer  font-kollektif-700 text-[13px] md:font-semibold font-bold">Services </a>
                     </div>
                 </div>
             </a>
 
-            <a href="#" class="cursor-pointer text-color1 hover:text-background">
-                <div class="container mx-auto">
-                    <img src={discover4} alt="bluetick" className="mb-2" />
+            <a href="#" class="cursor-pointer text-color1 hover:text-background md:w-[250px] w-[428px]">
+                <div class="container mx-auto md:w-[250px] w-[380px] mt-6">
+                    <img src={discover4} alt="bluetick" className="md:w-[222px] w-[372px] md:h-[160px] h-[173px]" />
                     <div className="ml-3 flex items-center mt-[20px]">
-                        <a href="#" class="cursor-pointer  font-kollektif-700 text-[13px] font-semibold">Case study </a>
+                        <a href="#" class="cursor-pointer  font-kollektif-700 text-[13px] md:font-semibold font-bold">Case Studies </a>
                     </div>
                 </div>
             </a>
 
-            <a href="#" class="cursor-pointer text-color1 hover:text-background">
-                <div class="container mx-auto">
-                    <img src={discover5} alt="bluetick" className="mb-2" />
+            <a href="#" class="cursor-pointer text-color1 hover:text-background md:w-[250px] w-[428px]">
+                <div class="container mx-auto md:w-[250px] w-[380px] mt-6">
+                    <img src={discover5} alt="bluetick" className="md:w-[222px] w-[372px] md:h-[160px] h-[173px]" />
                     <div className="ml-3 flex items-center mt-[20px]">
-                        <a href="#" class="cursor-pointer  font-kollektif-700 text-[13px] font-semibold">Blog </a>
+                        <a href="#" class="cursor-pointer  font-kollektif-700 text-[13px] md:font-semibold font-bold">Blog </a>
                     </div>
                 </div>
             </a>

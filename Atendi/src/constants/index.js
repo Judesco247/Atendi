@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, facebook2, instagram2, linkedin2, twitter2, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -166,22 +166,44 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "/",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "/",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "/",
+  },
+];
+export const socialMedia2 = [
+  {
+    id: "social-media-5",
+    icon: instagram2,
+    link: "/",
+  },
+  {
+    id: "social-media-6",
+    icon: facebook2,
+    link: "/",
+  },
+  {
+    id: "social-media-7",
+    icon: twitter2,
+    link: "/",
+  },
+  {
+    id: "social-media-8",
+    icon: linkedin2,
+    link: "/",
   },
 ];
 

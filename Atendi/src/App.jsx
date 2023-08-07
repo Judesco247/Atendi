@@ -2,7 +2,8 @@ import styles from './style'
 
 import {
   Navbar, Hero, Stats, Business, Billing, CardDeal,
-  Testimonials, Clients, Plans, CTA, Industries, Footer
+  Testimonials, Clients, Plans, CTA, Industries, Contact, FeatureNews, Footer,
+  Comments
 } from './components';
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 
@@ -14,7 +15,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`${styles.flexStart}`}>
+    <div className={``}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
@@ -24,8 +25,8 @@ const App = () => (
         <Stats />
       </div>
     </div>
-    <div className="bg-color7">
-      <div className={`${styles.boxWidth}`}>
+    <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={``}>
         <Business />
       </div>
     </div>
@@ -45,7 +46,7 @@ const App = () => (
       </div>
     </div>
     <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={``}>
         <Testimonials />
       </div>
     </div>
@@ -57,6 +58,21 @@ const App = () => (
     <div className="bg-color7">
       <div className={`${styles.boxWidth}`}>
         <Industries />
+      </div>
+    </div>
+    {/* <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Comments />
+      </div>
+    </div> */}
+    <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={``}>
+        <FeatureNews />
+      </div>
+    </div>
+    <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Contact />
       </div>
     </div>
 

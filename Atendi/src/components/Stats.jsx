@@ -6,49 +6,49 @@ const Stats = () => (
   <div className="container mx-auto">
     <div className="flex md:flex-row flex-col-reverse sm:py-16 py-6">
       <div className="">
-        <p className='ml-12 w-[450px] text-background text-[15px] font-bold mb-4'>Our Journey as a Technology Consulting Company</p>
-        <h1 className='ml-12 w-[600px] text-color1 text-[25px] font-bold mb-4 font-kollektif-400'>Enhancing Customer Engagement Through Technology</h1>
-        <p className="ml-12 w-[600px] text-color2 text-[13px] font-kollektif-400">Welcome to ATENDI, a leading customer engagement solutions provider. Our mission<br />
-          is to enhance the communication process of customer engagement through <br />
-          technological resources. We believe in advancing with people, which is why we're<br />
-          dedicated to creating a people-oriented, team-oriented, innovative, and outcome-<br />
-          oriented company culture. Our vision is to lead in the customer engagement solutions<br />
-          provider industry by creating a stellar reputation and setting and achieving business<br />
+        <p className='md:ml-12 md:w-[450px] w-[328px] text-background text-[15px] font-bold mb-4'>Our Journey as a Technology Consulting Company</p>
+        <h1 className='md:ml-12 md:w-[600px] w-[328px] text-color1 text-[25px] font-bold mb-4 font-kollektif-400'>Enhancing Customer Engagement Through Technology</h1>
+        <p className="md:ml-12 md:w-[617px] w-[360px] text-color2 md:text-[13px] text-[10px] font-kollektif-400">Welcome to ATENDI, a leading customer engagement solutions provider. Our mission
+          is to enhance the communication process of customer engagement through 
+          technological resources. We believe in advancing with people, which is why we're
+          dedicated to creating a people-oriented, team-oriented, innovative, and outcome-
+          oriented company culture. Our vision is to lead in the customer engagement solutions
+          provider industry by creating a stellar reputation and setting and achieving business
           milestones</p>
         <br />
-        <button className="ml-12 py-2 px-6 border-2 border-background text-background text-[12px] font-bold">Learn More</button>
-
-        <div className="container mx-auto grid grid-cols-4 gap-4 mt-[80px]">
-          <div className="container mx-auto">
-            <div className="ml-12 flex items-center">
+        <button className="md:ml-12 py-2 px-6 border-2 border-background text-background text-[12px] font-bold">Learn More</button>
+        
+        <div className="container mx-auto md:flex flex-cols-4 gap-4 mt-[80px]">
+          <div className="w-[346px] mb-12">
+            <div className="md:ml-12 flex items-center">
               <img src={check1} alt="bluetick" className="mr-2" />
               <h5 className='text-color1 text-[15px] font-bold font-kollektif-400'>CUSTOMER FOCUS</h5>
             </div>
-            <p className="ml-12 w-[300px] text-color2 text-[13px] font-kollektif-400">We put the customer at the heart of<br /> everything we do. By listening to their <br /> needs and understanding their goals, we<br /> create solutions that empower their success</p>
+            <p className="md:ml-12 md:w-[311px] w-[365px] text-color2 text-[13px] font-kollektif-400">We put the customer at the heart of everything we do. By listening to their needs and understanding their goals, we create solutions that empower their success</p>
           </div>
-          <div className="container mx-auto">
-            <div className="ml-12 flex items-center">
+          <div className="w-[346px] mb-12">
+            <div className="flex items-center">
               <img src={check1} alt="bluetick" className="mr-2" />
               <h5 className='text-color1 text-[15px] font-bold font-kollektif-400'>TECHNOLOGY-LED</h5>
             </div>
-            <p className="ml-12 w-[300px] text-color2 text-[13px] font-kollektif-400">Our commitment to innovation drives us to use<br /> the latest technology and techniques to<br /> deliver cutting-edge solutions that<br /> meet the evolving needs of our clients</p>
+            <p className="md:w-[311px] w-[365px] text-color2 text-[13px] font-kollektif-400">Our commitment to innovation drives us to use the latest technology and techniques to deliver cutting-edge solutions that meet the evolving needs of our clients</p>
           </div>
         </div>
-        <br />
-        <div className="container mx-auto grid grid-cols-4 gap-4">
-          <div className="container mx-auto">
-            <div className="ml-12 flex items-center">
+
+        <div className="container mx-auto md:flex flex-cols-4 gap-4">
+          <div className="w-[346px] mb-12">
+            <div className="md:ml-12 flex items-center">
               <img src={check1} alt="bluetick" className="mr-2" />
               <h5 className='text-color1 text-[15px] font-bold font-kollektif-400'>PARTNERSHIP</h5>
             </div>
-            <p className="ml-12 w-[300px] text-color2 text-[13px] font-kollektif-400">We work closely with our clients, building<br /> strong partnerships based on trust, open<br /> communication, and a shared commitment<br /> to achieving their goals</p>
+            <p className="md:ml-12 md:w-[311px] w-[365px] text-color2 text-[13px] font-kollektif-400">We work closely with our clients, building strong partnerships based on trust, open communication, and a shared commitment to achieving their goals</p>
           </div>
-          <div className="container mx-auto">
-            <div className="ml-12 flex items-center">
+          <div className="w-[346px] mb-12">
+            <div className="flex items-center">
               <img src={check1} alt="bluetick" className="mr-2" />
               <h5 className='text-color1 text-[15px] font-bold font-kollektif-400'>ADAPTABILITY</h5>
             </div>
-            <p className="ml-12 w-[300px] text-color2 text-[13px] font-kollektif-400">Our agile approach allows us to quickly adapt<br /> to changes in our clients' needs, ensuring we<br /> always deliver effective solutions that make a<br /> meaningful impact</p>
+            <p className="md:w-[311px] w-[365px] text-color2 text-[13px] font-kollektif-400">Our agile approach allows us to quickly adapt to changes in our clients' needs, ensuring we always deliver effective solutions that make a meaningful impact</p>
 
 
 

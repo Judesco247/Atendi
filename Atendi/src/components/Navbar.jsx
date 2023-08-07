@@ -1,69 +1,41 @@
-import {useState} from 'react'
+import { useState } from 'react'
 
-import { close, logo, menu } from '../assets';
-import { navLinks } from '../constants';
+import { logo } from '../assets';
 import { Link } from "react-router-dom";
 
-const  Navbar = () => {
-  const [toggle, setToggle] = useState(false);
-  return (
-    <nav className='w-full flex py6 justify-between items-center navbar w-[1280px] h-[81]
-    l-[160px] t-[10px]'>
-      <img src={logo} alt='atendi' className='w-[77px] h-[81px]'/>
+const Navbar = () => {
+   let [open, setopen] = useState(false)
+   return (
+      <nav className="flex pt-3 justify-between items-center navbar md:w-[1280px] w-[428px] md:h-[81px] h-[75px]
+       l-[160px] t-[10px]">
+         {/* <nav className="flex items-center justify-between pt-5"></nav> */}
+         <img src={open ? "./src/assets/close.svg" : "./src/assets/menu.svg"} className="md:hidden  fixed right-5 cursor-pointer z-20 top-6 text-black" onClick={() => setopen(!open)} />
+         <img src={logo} alt="logo" className="w-77 h-[81px]" />
+         <ul className={`bg-color7 backdrop-blur-md  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 ${!open ? 'right-[-100%] ' : 'right-0'}`}>
 
-      <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
-        {/* {navLinks.map((nav, index) => (
-          <li key={nav.id} className={`font-kollektif font-normal cursor-pointer text-[16px]
-           ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}>
-            <a href={`#${nav.id}`}>
-              {nav.title}
-            </a>
-           </li> */}
-          <li className='font-kollektif font-normal cursor-pointer text-[16px] mr-0 mr-10 '>
-            <Link to="/">Home</Link>
-           </li>
-           <li className='font-kollektif font-normal cursor-pointer text-[16px] mr-0 mr-10 '>
-            <Link to="/about-us">About Us</Link>
-           </li>
-           <li className='font-kollektif font-normal cursor-pointer text-[16px] mr-0 mr-10 '>
-            <Link to="/services">Services</Link>
-           </li>
-           <li className='font-kollektif font-normal cursor-pointer text-[16px] mr-0 mr-10 '>
-            <Link to="/case-studies">Case Studies</Link>
-           </li>
-           <li className='font-kollektif font-normal cursor-pointer text-[16px] mr-0 mr-10 '>
-            <Link to="/news">News</Link>
-           </li>
-           <li className='font-kollektif font-normal cursor-pointer text-[16px] mr-0 mr-10 '>
-            <button className="w-[150px] py-3 px-3 text-[13px] font-bold text-color0 px-4 py-2 border-2 border-color0 hover:text-white hover:bg-color0 font-kollektif-400 ">
-              <Link to="/contact-us">Contact Us</Link>
-              </button>
-           </li>
-        {/* ))} */}
-      </ul>
-
-      <div className='sm:hidden flex flex-1 justify-end items-center'>
-        <img src={toggle ? close : menu} 
-        alt='menu' className='w-[28px] h-[28] object-contain'
-        onClick={() => setToggle((prev) => !prev)}/>
-
-        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient 
-        absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-x1 sidebar`}>
-
-          <ul className='list-none flex flex-col justify-end items-center flex-1'>
-            {navLinks.map((nav, index) => (
-              <li key={nav.id} className={`font-kollektif font-normal cursor-pointer text-[16px]
-           ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}>
-                <a href={`#${nav.id}`}>
-                  {nav.title}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    </nav>
-  )
+            <li className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
+               <Link to="/" className="cursor-pointer font-Barlow font-kollektif-700 text-sm inline-block md:py-5 py-3">Home</Link>
+            </li>
+            <li className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
+               <Link to="/about-us" className="cursor-pointer font-Barlow font-kollektif-700 text-sm inline-block md:py-5 py-3">About Us</Link>
+            </li>
+            <li className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
+               <Link to="/services" className="cursor-pointer font-Barlow font-kollektif-700 text-sm inline-block md:py-5 py-3">Services</Link>
+            </li>
+            <li className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
+               <Link to="/case-studies" className="cursor-pointer font-Barlow font-kollektif-700 text-sm inline-block md:py-5 py-3">Case Studies</Link>
+            </li>
+            <li className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
+               <Link to="/news" className="cursor-pointer font-Barlow font-kollektif-700 text-sm inline-block md:py-5 py-3">News</Link>
+            </li>
+            <li className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
+               <button className="w-[150px] py-3 px-3 text-[13px] font-bold text-color0 px-4 py-2 border-2 border-color0 hover:text-white hover:bg-color0 font-kollektif-400 ">
+                  <Link to="/contact-us" className="cursor-pointer font-Barlow font-kollektif-700 text-sm inline-block">Contact Us</Link>
+               </button>
+            </li>
+         </ul>
+      </nav>
+   )
 }
 
 export default Navbar

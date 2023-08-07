@@ -30,8 +30,12 @@ import Project2 from "./Project2";
 import Project3 from "./Project3";
 import CaseBox from "./CaseBox";
 import CaseStudy from "./CaseStudy";
+import FeatureNews from "./FeatureNews";
+import Comments from "./Comments";
 
 export {
+  Comments,
+  FeatureNews,
   CaseStudy,
   CaseBox,
   Project3,

@@ -2,13 +2,13 @@ import React from 'react'
 import { difference_image } from '../assets'
 
 const Difference = () => (
-    <div class="flex items-start mt-20 mb-[-20px] ">
-        <div class="flex-initial mr-4">
+    <div class="md:flex items-start mt-20 mb-[-20px] md:w-[1280px] w-[380px] md:h-[615px] h-[447px] ">
+        <div class="hidden md:block md:flex-initial mr-4">
             <img src={difference_image} alt="Image" className='w-[580px] h-[550px]' />
         </div>
-        <div className='flex-grow w-[580px] h-[600px] mt-20'>
-            <h1 className='ml-3 mb-4 text-color1 text-[25px] font-bold font-kollektif-400'>What differentiates Attendi from<br /> other platforms?</h1>
-            <div className='relative w-[400px] overflow-hidden'>
+        <div className='md:flex-grow md:w-[580px] w-[380px] md:h-[600px] h-[447px] mt-20'>
+            <h1 className='ml-3 mb-4 text-color1 md:text-[25px] text-[20px] font-bold font-kollektif-400'>What differentiates Attendi from<br /> other platforms?</h1>
+            <div className='relative md:w-[400px] w-[350px] overflow-hidden'>
                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
                 <div className='bg-dimWhite h-12 w-full pl-5 flex items-center'>
                     <h1 className='text-[15px] text-color0 font-bold font-kollektif-700'>Analysis</h1>
@@ -28,7 +28,7 @@ const Difference = () => (
                 <hr class="border-1 mt-2" />
             </div>
 
-            <div className='relative w-[400px] overflow-hidden'>
+            <div className='relative md:w-[400px] w-[350px] overflow-hidden'>
                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
                 <div className='bg-dimWhite h-12 w-full pl-5 flex items-center'>
                     <h1 className='text-[15px] text-color0 font-bold font-kollektif-700'>Reporting</h1>
@@ -48,7 +48,7 @@ const Difference = () => (
                 <hr class="border-1 mt-2" />
             </div>
 
-            <div className='relative w-[400px] overflow-hidden'>
+            <div className='relative md:w-[400px] w-[350px] overflow-hidden'>
                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
                 <div className='bg-dimWhite h-12 w-full pl-5 flex items-center'>
                     <h1 className='text-[15px] text-color0 font-bold font-kollektif-700'>Research</h1>
@@ -68,7 +68,7 @@ const Difference = () => (
                 <hr class="border-1 mt-2" />
             </div>
 
-            <div className='relative w-[400px] overflow-hidden'>
+            <div className='relative md:w-[400px] w-[350px] overflow-hidden'>
                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
                 <div className='bg-dimWhite h-12 w-full pl-5 flex items-center'>
                     <h1 className='text-[15px] text-color0 font-bold font-kollektif-700'>Implementation</h1>
@@ -88,7 +88,7 @@ const Difference = () => (
                 <hr class="border-1 mt-2" />
             </div>
 
-            <div className='relative w-[400px] overflow-hidden'>
+            <div className='relative md:w-[400px] w-[350px] overflow-hidden'>
                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
                 <div className='bg-dimWhite h-12 w-full pl-5 flex items-center'>
                     <h1 className='text-[15px] text-color0 font-bold font-kollektif-700'>Reporting</h1>

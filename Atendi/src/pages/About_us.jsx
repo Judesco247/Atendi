@@ -31,12 +31,12 @@ const About_us = () => (
         </div>
         <div className="bg-color7">
             <div className={`${styles.boxWidth}`}>
-            <Industries />
+                <Industries />
             </div>
         </div>
-        <div className="bg-dimWhite">
-            <div className={`${styles.boxWidth}`}>
-            <Business />
+        <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+            <div className={``}>
+                <Business />
             </div>
         </div>
         <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
