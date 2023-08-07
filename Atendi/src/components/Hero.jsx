@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 
 const Hero = () => (
   <div>
-  <div className="hidden md:block bg-cover bg-center bg-hero-bg w-full">
-    {/* <img className='w-[1600px] h-[920px]' src={home_banner} alt="banner" /> */}
-    <div className="flex-[1.5] max-w-full h-[650px] justify-start item-start rounded-lg shadow-lg p-8 mb-8">
+  {/* <div className="hidden md:block bg-cover bg-center bg-hero-bg w-full"> */}
+  <div className="hidden md:block">
+    <img className='w-[1600px] h-[650px] bg-cover' src={home_banner} alt="banner" />
+    <div className="flex-[1.5] max-w-full h-[650px] justify-start item-start rounded-lg p-8 mb-8 mt-[-650px]">
       <h1 className="ml-3 w-[1151px] h-[154px] text-[50px] text-white font-bold font-kollektif-700 mb-4 mt-10 absolute">Empowering Customer Engagement <br /> Through Technology</h1>
       <hr className="ml-3 w-[769px] h-2 border-color4 mb-4 absolute mt-56" />
       <p className="ml-3 w-[750px] text-[15px] mb-4 font-kollektif-400 absolute text-white mt-64">ATENDI empowers customer engagement through innovative technology solutions.<br />
@@ -46,7 +47,7 @@ const Hero = () => (
     </div> */}
   </div>
 
-  <div className="block md:hidden w-[428px] h-[564px] bg-cover bg-center bg-mhome-bg mt-4">
+  <div className="block md:hidden w-[428px] h-[564px] bg-color0 mt-4">
     <div className='w-[380px] h-[483.97px]'>
       <h1 className='ml-6 w-[364px] h-[123px] text-[33px] text-white font-bold font-kollektif-700 mb-4 mt-10 absolute'>Empowering Customer Engagement Through Technology</h1>
       <hr className="ml-12 w-[325px] h-2 border-color4 mb-4 absolute mt-56" />
