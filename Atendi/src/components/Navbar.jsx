@@ -11,7 +11,7 @@ const Navbar = () => {
          {/* <nav className="flex items-center justify-between pt-5"></nav> */}
          <img src={open ? close : menu} className="md:hidden  fixed right-5 cursor-pointer z-20 top-6 text-black" onClick={() => setopen(!open)} />
          <img src={logo} alt="logo" className="w-77 h-[81px]" />
-         <ul className={`bg-color7 backdrop-blur-md  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 ${!open ? 'right-[-100%] ' : 'right-0'}`}>
+         <ul className={`bg-dimWhite backdrop-blur-md  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 ${!open ? 'right-[-100%] ' : 'right-0'}`}>
 
             <li className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
                <Link to="/" className="cursor-pointer font-Barlow font-kollektif-700 text-sm inline-block md:py-5 py-3">Home</Link>

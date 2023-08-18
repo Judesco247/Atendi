@@ -21,7 +21,7 @@ const App = () => (
       </div>
     </div>
     <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={``}>
         <Stats />
       </div>
     </div>
@@ -60,11 +60,16 @@ const App = () => (
         <Industries />
       </div>
     </div>
-    {/* <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={``}>
+        <Testimonials />
+      </div>
+    </div>
+    <div className={`mt-5 bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Comments />
       </div>
-    </div> */}
+    </div>
     <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
       <div className={``}>
         <FeatureNews />

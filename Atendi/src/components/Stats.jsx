@@ -3,9 +3,9 @@ import { check1, about } from '../assets';
 
 const Stats = () => (
   // <div>Stats</div>
-  <div className="container mx-auto">
-    <div className="flex md:flex-row flex-col-reverse sm:py-16 py-6">
-      <div className="">
+  <div className="container md:w-[1600px] md:h-[800px]">
+    <div className="flex md:flex-row flex-cols-2 sm:py-16 py-6">
+      <div className="mt-[-20px]">
         <p className='md:ml-12 md:w-[450px] w-[328px] text-background text-[15px] font-bold mb-4'>Our Journey as a Technology Consulting Company</p>
         <h1 className='md:ml-12 md:w-[600px] w-[328px] text-color1 text-[25px] font-bold mb-4 font-kollektif-400'>Enhancing Customer Engagement Through Technology</h1>
         <p className="md:ml-12 md:w-[617px] w-[360px] text-color2 md:text-[13px] text-[10px] font-kollektif-400">Welcome to ATENDI, a leading customer engagement solutions provider. Our mission
@@ -56,48 +56,11 @@ const Stats = () => (
         </div>
 
       </div>
-      <div className="">
-        <img src="" alt="Image" />
+      <div className="hidden md:block w-[750px] h-[911px] float-right">
+        <img src={about} alt="Image" />
       </div>
     </div>
 
-
-
-
-    {/* <div className="flex md:flex-row flex-col-reverse sm:py-16 py-6">
-    <div className="mx-4">
-      <h2
-        className={`font-Inter font-semibold xs:text-[16px] md:mt-[10px] mt-[20px] text-[14px] text-black   w-full mb-4 `}
-      >
-        Our Journey as a Technology Consulting Company
-      </h2>
-      <h1
-        className={`font-Inter font-semibold xs:text-[28px] md:mt-[2px] text-[20px] text-black  w-full mb-4 text-primary `}
-      >
-        Enhancing Customer Engagement Through Technology{" "}
-      </h1>
-      <div
-        className={`font-inter font-normal  sm:text-[16px] text-[12px] sm:leading-[25.8px] leading-[25.8px] min-w-[470px] md:mt-0 mt-5 mb-6`}
-      >
-        <p>
-        Welcome to ATENDI, a leading customer engagement solutions provider. Our mission<br />
-          is to enhance the communication process of customer engagement through <br />
-          technological resources. We believe in advancing with people, which is why we're<br />
-          dedicated to creating a people-oriented, team-oriented, innovative, and outcome-<br />
-          oriented company culture. Our vision is to lead in the customer engagement solutions<br />
-          provider industry by creating a stellar reputation and setting and achieving business<br />
-          milestones
-        </p>
-      </div>
-    </div>
-    <div className="relative">
-      <img
-        src={about}
-        alt="vision"
-        className="  md:w-[718px] w-[371.34px]  md:h-[931px] h-[238px] " id='busimage'
-      />
-    </div>
-  </div> */}
   </div>
 
 )

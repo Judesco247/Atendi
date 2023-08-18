@@ -4,10 +4,13 @@ import { footerLinks, socialMedia2 } from "../constants";
 
 const Contact = () => (
     <div>
-        <div class="hidden md:flex mt-20 mb-20">
+        <div class="hidden md:flex mb-20">
             <div class="ml-3 p-4 w-1/2">
                 <h1 class="text-[30px] text-white font-bold font-kollektif-700 mb-4">We’d love to hear from you</h1>
-                <p className="text-white text-[13px] font-kollektif-700 pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, </p>
+                <p className="text-white text-[13px] font-kollektif-700 pb-6">
+                    We're here to answer any questions you have about our services. Let's start a conversation and explore 
+                    how ATENDI can help your business thrive through innovative technology solutions.
+                </p>
                 <div className="container mx-auto p-2">
                     <h5 className='text-[20px] text-white font-bold font-kollektif-400'>
                         <span><img src={line} alt="bluetick" className="mr-2 mb-2" /></span>

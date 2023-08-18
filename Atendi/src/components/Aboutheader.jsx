@@ -3,7 +3,7 @@ import { about_header, about_us_mobile } from "../assets"
 
 const Aboutheader = () => (
   <div>
-    <div className="hidden md:block container mx-auto">
+    <div className="hidden md:block">
       <img className='' src={about_header} alt="banner" />
     </div>
 

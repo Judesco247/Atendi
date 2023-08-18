@@ -87,8 +87,24 @@ import service_header_mobile from "./service-header-mobile.png";
 import case_header_mobile from "./case-header-mobile.png";
 import news_header_mobile from "./news-header-mobile.png";
 import contact_header_mobile from "./contact-header-mobile.png";
+import banking from "./banking.png";
+import education from "./education.png";
+import government from "./government.png";
+import health from "./health.png";
+import hospitality from "./hospitality.png";
+import manufacture from "./manufacture.png";
+import retail from "./retail.png";
+import telecom from "./telecom.png";
 
 export {
+  telecom,
+  retail,
+  manufacture,
+  hospitality,
+  health,
+  government,
+  education,
+  banking,
   contact_header_mobile,
   news_header_mobile,
   case_header_mobile,

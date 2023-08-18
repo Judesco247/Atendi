@@ -6,6 +6,7 @@ import Services from './pages/Services.jsx'
 import News from './pages/News.jsx'
 import Contacts from './pages/Contacts.jsx'
 import Case from './pages/Case.jsx'
+import FullNews from './pages/FullNews.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider,} from "react-router-dom";
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "contact-us",
     element: <Contacts />,
+  },
+  {
+    path: "full-details",
+    element: <FullNews />,
   },
 ]);
 

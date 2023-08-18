@@ -1,5 +1,6 @@
 import React from 'react'
 import { latest1, latest2, latest3, latest4, latest5, latest6, latest7, latest8, latest9, latest10 } from '../assets'
+import { Link } from "react-router-dom";
 
 const Latest = () => (
     <div className='md:ml-3 container mx-auto mb-20'>
@@ -16,9 +17,15 @@ const Latest = () => (
                     <p className="ml-3 md:w-[240px] w-[320px] text-color2 text-[13px] font-kollektif-700">Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Duis sit vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
                     </p>
-                    <div className="ml-3 flex items-center mt-[30px]">
-                        <a href="#" class="cursor-pointer text-background font-kollektif-700 text-[13px] font-semibold">Read More </a>
-                    </div>
+                    <Link
+                        to="/full-details"
+                        className={`cursor-pointer text-background font-kollektif-700 text-[13px] font-semibold ml-3 flex items-center mt-[30px]`}
+                    >
+                        Read More{" "}
+                    </Link>
+                    {/* <div className="ml-3 flex items-center mt-[30px]">
+                        <a href="/src/pages/FullNews.jsx" class="cursor-pointer text-background font-kollektif-700 text-[13px] font-semibold">Read More </a>
+                    </div> */}
                 </div>
             </a>
 

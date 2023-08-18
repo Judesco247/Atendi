@@ -32,8 +32,10 @@ import CaseBox from "./CaseBox";
 import CaseStudy from "./CaseStudy";
 import FeatureNews from "./FeatureNews";
 import Comments from "./Comments";
+import NewsBody from "./NewsBody";
 
 export {
+  NewsBody,
   Comments,
   FeatureNews,
   CaseStudy,

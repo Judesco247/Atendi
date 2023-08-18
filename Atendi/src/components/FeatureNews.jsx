@@ -1,11 +1,11 @@
 import React from 'react'
-import { discover5, discover6, discover7,  } from '../assets'
+import { discover5, discover6, discover7, } from '../assets'
 
 const FeatureNews = () => (
     <div>
-    <div className='mt-[30px] md:w-[800px] w-[428px] md:h-[395px] h-[722px] md:mb-20'>
-        <h5 className='mt-20 mb-10 text-center text-color1 text-[25px] font-bold font-kollektif-700'>Featured News</h5>
-        <div class="md:grid grid-cols-3 mt-5 items-center">
+        <div className='mt-10 md:w-[800px] w-[428px] md:h-[395px] h-[722px] md:mb-20'>
+            <h5 className='mt-10 mb-10 text-center text-color1 text-[25px] font-bold font-kollektif-700'>Featured News</h5>
+            <div class="md:grid grid-cols-3 mt-5 items-center">
 
                 <div class="container mx-auto md:w-[250px] w-[379px] h-[395px]">
                     <img src={discover5} alt="bluetick" className="md:w-[351px] w-[379px] md:h-[194px]" />
@@ -34,9 +34,9 @@ const FeatureNews = () => (
                     </div>
                 </div>
 
+            </div>
         </div>
     </div>
-    </div>
-  )
+)
 
 export default FeatureNews

@@ -107,13 +107,13 @@ const Footer = () => (
               </h4>
               <ul className="list-none mb-4">
                 <Link
-                  to="/clients/agencies"
+                  to="/"
                   className={`text-color2 text-[13px] font-kollektif-700 hover hover:text-background pt-5 cursor-pointer block`}
                 >
                   FAQ{" "}
                 </Link>
                 <Link
-                  to="/clients/financial"
+                  to="/"
                   className={`text-color2 text-[13px] font-kollektif-700 hover hover:text-background pt-5 cursor-pointer block`}
                 >
                   Trouble Shooting{" "}

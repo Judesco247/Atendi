@@ -6,13 +6,16 @@ const Wedo = () => (
       <h1 className='ml-3 mb-4 text-color1 text-[25px] font-bold font-kollektif-400'>What We Do</h1>
     </div>
     <div class="flex items-center justify-center p-4">
-      <p className="text-color2 text-center text-[13px] font-kollektif-700 pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula cursus. dolor sit<br />
-        amet dolor adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,<br />
-        consectetur adipiscing elit. <br /><br />
+      <p className="w-[650px] text-color2 text-center text-[13px] font-kollektif-700 pb-6">
+        At ATENDI, we're dedicated to delivering innovative technology solutions that empower businesses 
+        across diverse industries. Our comprehensive suite of services includes knowledge management, 
+        business analysis, integration, and project management. <br /><br />
 
-        Duis sit vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet,<br />
-        consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit<br />
-        amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum</p>
+        By enhancing operational efficiency, optimizing customer engagement, and driving growth, we enable 
+        businesses to thrive in the ever-evolving market landscape. With a commitment to a customer-centric 
+        approach, we tailor our solutions to address unique needs, ensuring tangible and impactful results 
+        that propel businesses towards success.
+      </p>
     </div>
     <div class="py-6 p-80 items-center justify-center"><hr class="border-2 mt-5 mb-4" /></div>
   </div>
