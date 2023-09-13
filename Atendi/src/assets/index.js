@@ -37,6 +37,7 @@ import pinterest from "./pinterest.png";
 import hubspot from "./hubspot.png";
 import salesforce from "./salesforce.png";
 import check1 from "./check1.png";
+import check2 from "./check2.png";
 import about from "./about-us.png";
 import user from "./UX-Resaerch.png";
 import business from "./Business-Analysis.png";
@@ -95,8 +96,86 @@ import hospitality from "./hospitality.png";
 import manufacture from "./manufacture.png";
 import retail from "./retail.png";
 import telecom from "./telecom.png";
+import news1 from "./news1.png";
+import news2 from "./news2.png";
+import date_icon from "./date-icon.png";
+import researchimg from "./research-banner-image.png";
+import research1 from "./research1.png";
+import research2 from "./research2.png";
+import research3 from "./research3.png";
+import research4 from "./research4.png";
+import arrow_logo from "./arrow.png";
+import Analyst1 from "./Analyst1.png";
+import certification1 from "./certification1.png";
+import certification2 from "./certification2.png";
+import certification3 from "./certification3.png";
+import certification4 from "./certification4.png";
+import toolset1 from "./toolset1.png";
+import toolset2 from "./toolset2.png";
+import toolset3 from "./toolset3.png";
+import toolset4 from "./toolset4.png";
+import toolset5 from "./toolset5.png";
+import toolset6 from "./toolset6.png";
+import toolset7 from "./toolset7.png";
+import toolset8 from "./toolset8.png";
+import toolset9 from "./toolset9.png";
+import toolset10 from "./toolset10.png";
+import toolset11 from "./toolset11.png";
+import toolset12 from "./toolset12.png";
+import toolset13 from "./toolset13.png";
+import toolset14 from "./toolset14.png";
+import toolset15 from "./toolset15.png";
+import tie from "./tie.png";
+import bus_service1 from "./bus-service1.png";
+import bus_service2 from "./bus-service2.png";
+import bus_service3 from "./bus-service3.png";
+import knowledge1 from "./knowledge1.png";
+import explicit from "./explicit.png";
+import tacit from "./tacit.png";
+import intscreen from "./intscreen.png";
+import effective from "./effective.png";
+import Frame from "./Frame.png";
 
 export {
+  Frame,
+  effective,
+  intscreen,
+  explicit,
+  tacit,
+  knowledge1,
+  bus_service1,
+  bus_service2,
+  bus_service3,
+  tie,
+  toolset1,
+  toolset2,
+  toolset3,
+  toolset4,
+  toolset5,
+  toolset6,
+  toolset7,
+  toolset8,
+  toolset9,
+  toolset10,
+  toolset11,
+  toolset12,
+  toolset13,
+  toolset14,
+  toolset15,
+  certification1,
+  certification2,
+  certification3,
+  certification4,
+  Analyst1,
+  arrow_logo,
+  research1,
+  research2,
+  research3,
+  research4,
+  researchimg,
+  date_icon,
+  news1,
+  news2,
   telecom,
   retail,
   manufacture,
@@ -156,6 +235,7 @@ export {
   management,
   about,
   check1,
+  check2,
   amazon,
   chime,
   ebay,

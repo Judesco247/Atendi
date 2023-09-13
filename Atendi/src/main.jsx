@@ -7,8 +7,17 @@ import News from './pages/News.jsx'
 import Contacts from './pages/Contacts.jsx'
 import Case from './pages/Case.jsx'
 import FullNews from './pages/FullNews.jsx'
+import Research from './pages/Research.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider,} from "react-router-dom";
+import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
+import BusAnalyst from './pages/BusAnalyst.jsx'
+import Knowledge from './pages/Knowledge.jsx'
+import Integration from './pages/Integration.jsx'
+import ProjectManagement from './pages/ProjectManagement.jsx'
+
+
+const queryClient = new QueryClient();
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,10 +47,33 @@ const router = createBrowserRouter([
     path: "full-details",
     element: <FullNews />,
   },
+  {
+    path: "user-research",
+    element: <Research />,
+  },
+  {
+    path: "business-Analyst",
+    element: <BusAnalyst />,
+  },
+  {
+    path: "knowledge-management",
+    element: <Knowledge />,
+  },
+  {
+    path: "integration",
+    element: <Integration />,
+  },
+  {
+    path: "project-management",
+    element: <ProjectManagement />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <QueryClientProvider client={queryClient}>
     <RouterProvider router={router} />
+    </QueryClientProvider>
   </React.StrictMode>,
 )
+      

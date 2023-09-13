@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindnpm auditfcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
@@ -26,8 +26,8 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        kollektif:["Kollektif"],
-        // poppins: ["Poppins", "sans-serif"],
+        'bodyfont':['Kollektif', 'sans-serif'],
+        'secondaryfont': ['Barabara', 'sans-serif'],
       },
       backgroundImage: {
         'hero-bg': "url('./src/assets/home-banner.gif')",

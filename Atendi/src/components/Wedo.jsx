@@ -3,10 +3,10 @@ import React from 'react'
 const Wedo = () => (
   <div className=' mt-20 '>
     <div class="flex items-center justify-center">
-      <h1 className='ml-3 mb-4 text-color1 text-[25px] font-bold font-kollektif-400'>What We Do</h1>
+      <h1 className='ml-3 mb-4 text-color1 text-[25px] font-bold font-bodyfont-400'>What We Do</h1>
     </div>
     <div class="flex items-center justify-center p-4">
-      <p className="w-[650px] text-color2 text-center text-[13px] font-kollektif-700 pb-6">
+      <p className="w-[650px] text-color2 text-center text-[13px] font-bodyfont-700 pb-6">
         At ATENDI, we're dedicated to delivering innovative technology solutions that empower businesses 
         across diverse industries. Our comprehensive suite of services includes knowledge management, 
         business analysis, integration, and project management. <br /><br />

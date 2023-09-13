@@ -8,10 +8,10 @@ const Story = () => (
         <img className='w-[620px] h-[570px] top-[111px] left-[160px]' src={our_story} alt="Image" />
         <div class="absolute w-[520px] h-[540px] top-[40px] left-[470px] bg-white p-4">
           <div className='absolute p-10'>
-            <h1 className='text-color1 text-[25px] font-bold font-kollektif-400'>
+            <h1 className='text-color1 text-[25px] font-bold font-bodyfont-400'>
               Our Story
             </h1>
-            <p className="w-[490px] text-color2 text-[13px] font-kollektif-400 pt-5 pb-6">
+            <p className="w-[490px] text-color2 text-[13px] font-bodyfont-400 pt-5 pb-6">
               Our journey began in 20XX when a team of passionate tech enthusiasts founded ATENDI with a
               vision to transform businesses through innovative technology solutions. Over the years, we've
               evolved into a trusted partner, helping clients across industries harness the power of technology
@@ -34,10 +34,10 @@ const Story = () => (
 
     <div className="block md:hidden w-[428px] h-[650px] mt-20 mb-20">
       <div className='w-[380px] h-[600px]'>
-        <h1 className='text-color1 text-[25px] font-bold font-kollektif-400 mb-10'>
+        <h1 className='text-color1 text-[25px] font-bold font-bodyfont-400 mb-10'>
           Our Story
         </h1>
-        <p className="text-color2 w-[350px] text-[14px] font-kollektif-400">
+        <p className="text-color2 w-[350px] text-[14px] font-bodyfont-400">
           Our journey began in 20XX when a team of passionate tech enthusiasts founded ATENDI with a
           vision to transform businesses through innovative technology solutions. Over the years, we've
           evolved into a trusted partner, helping clients across industries harness the power of technology

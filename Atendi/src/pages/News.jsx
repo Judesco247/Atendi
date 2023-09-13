@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from '../style'
 import { Navbar, Newsheader, Latest, Contact, Footer } from '../components'
+import axios from 'axios'
 
 const News = () => (
-    <div className='bg-dimWhite w-full overflow-hidden'>
+        <div className='bg-dimWhite w-full overflow-hidden'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
                 <Navbar />
@@ -19,7 +20,7 @@ const News = () => (
                 <Latest />
             </div>
         </div>
-        <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`-mt-[900px] bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
                 <Contact />
             </div>
@@ -30,6 +31,6 @@ const News = () => (
             </div>
         </div>
     </div>
-  )
+    )
 
 export default News

@@ -3,7 +3,7 @@ import { News_header, news_header_mobile } from '../assets'
 
 const Newsheader = () => (
   <div>
-    <div className="hidden md:block container mx-auto">
+    <div className="hidden md:block">
         <img className='' src={News_header} alt="banner" />
     </div>
 

@@ -3,7 +3,7 @@ import { Contact_header, contact_header_mobile } from '../assets'
 
 const Contactheader = () => (
   <div>
-    <div className="hidden md:block container mx-auto">
+    <div className="hidden md:block">
         <img className='' src={Contact_header} alt="banner" />
     </div>
 
