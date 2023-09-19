@@ -3,7 +3,7 @@ import styles from "../style";
 import {
   Contact,
   Footer,
-  Industries,
+  Industries2,
   Knowledgebenefit,
   Knowledgeheader,
   Knowledgetype,
@@ -50,9 +50,9 @@ const Knowledge = () => (
         <WhyUs />
       </div>
     </div>
-    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-dimWhite`}>
       <div className={`${styles.boxWidth}`}>
-        <Industries />
+        <Industries2 />
       </div>
     </div>
     <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>

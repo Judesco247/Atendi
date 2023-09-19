@@ -62,9 +62,11 @@ import Effectiveproj from "./Effectiveproj";
 import Industryexpert from "./Industryexpert";
 import ServiceArea from "./ServiceArea";
 import ManageProject from "./ManageProject";
+import Industries2 from "./Industries2";
 
 
 export {
+  Industries2,
   ManageProject,
   ServiceArea,
   Industryexpert,

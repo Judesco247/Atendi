@@ -20,19 +20,19 @@ const Stats = () => (
         <button className="md:ml-12 py-2 px-6 border-2 border-background text-background text-[12px] font-bold font-bodyfont">Learn More</button>
         
         <div className="container mx-auto md:flex flex-cols-4 gap-4 mt-[80px]">
-          <div className="w-[346px] mb-12">
+          <div className="w-[346px] mb-6">
             <div className="md:ml-12 flex items-center">
               <img src={check1} alt="bluetick" className="mr-2" />
               <h5 className='text-color1 text-[15px] font-bold font-bodyfont-400'>CUSTOMER FOCUS</h5>
             </div>
-            <p className="md:ml-12 md:w-[311px] w-[365px] text-color2 text-[13px] font-bodyfont-400">We put the customer at the heart of everything we do. By listening to their needs and understanding their goals, we create solutions that empower their success</p>
+            <p className="md:ml-12 md:w-[300px] w-[365px] text-color2 text-[13px] font-bodyfont-400">We put the customer at the heart of everything we do. By listening to their needs and understanding their goals, we create solutions that empower their success</p>
           </div>
-          <div className="w-[346px] mb-12">
+          <div className="w-[346px] mb-6">
             <div className="flex items-center">
               <img src={check1} alt="bluetick" className="mr-2" />
               <h5 className='text-color1 text-[15px] font-bold font-bodyfont-400'>TECHNOLOGY-LED</h5>
             </div>
-            <p className="md:w-[311px] w-[365px] text-color2 text-[13px] font-bodyfont-400">Our commitment to innovation drives us to use the latest technology and techniques to deliver cutting-edge solutions that meet the evolving needs of our clients</p>
+            <p className="md:w-[300px] w-[365px] text-color2 text-[13px] font-bodyfont-400">Our commitment to innovation drives us to use the latest technology and techniques to deliver cutting-edge solutions that meet the evolving needs of our clients</p>
           </div>
         </div>
 
@@ -42,14 +42,14 @@ const Stats = () => (
               <img src={check1} alt="bluetick" className="mr-2" />
               <h5 className='text-color1 text-[15px] font-bold font-bodyfont-400'>PARTNERSHIP</h5>
             </div>
-            <p className="md:ml-12 md:w-[311px] w-[365px] text-color2 text-[13px] font-bodyfont-400">We work closely with our clients, building strong partnerships based on trust, open communication, and a shared commitment to achieving their goals</p>
+            <p className="md:ml-12 md:w-[300px] w-[365px] text-color2 text-[13px] font-bodyfont-400">We work closely with our clients, building strong partnerships based on trust, open communication, and a shared commitment to achieving their goals</p>
           </div>
           <div className="w-[346px] mb-12">
             <div className="flex items-center">
               <img src={check1} alt="bluetick" className="mr-2" />
               <h5 className='text-color1 text-[15px] font-bold font-bodyfont-400'>ADAPTABILITY</h5>
             </div>
-            <p className="md:w-[311px] w-[365px] text-color2 text-[13px] font-bodyfont-400">Our agile approach allows us to quickly adapt to changes in our clients' needs, ensuring we always deliver effective solutions that make a meaningful impact</p>
+            <p className="md:w-[300px] w-[365px] text-color2 text-[13px] font-bodyfont-400">Our agile approach allows us to quickly adapt to changes in our clients' needs, ensuring we always deliver effective solutions that make a meaningful impact</p>
 
 
 

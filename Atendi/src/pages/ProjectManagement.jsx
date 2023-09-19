@@ -1,10 +1,22 @@
-import React from 'react'
-import styles from '../style'
-import { Contact, Effectiveproj, Footer, Industries, Industryexpert, ManageProject, Navbar, Projectmgtbanner, ServiceArea, Testimonials, WhyUs } from '../components'
+import React from "react";
+import styles from "../style";
+import {
+  Contact,
+  Effectiveproj,
+  Footer,
+  Industries2,
+  Industryexpert,
+  ManageProject,
+  Navbar,
+  Projectmgtbanner,
+  ServiceArea,
+  Testimonials,
+  WhyUs,
+} from "../components";
 
 const ProjectManagement = () => (
-    <div className="bg-dimWhite w-full overflow-hidden">
-        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+  <div className="bg-dimWhite w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
@@ -44,9 +56,9 @@ const ProjectManagement = () => (
         <ManageProject />
       </div>
     </div>
-    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-dimWhite`}>
       <div className={`${styles.boxWidth}`}>
-        <Industries />
+        <Industries2 />
       </div>
     </div>
     <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
@@ -60,7 +72,7 @@ const ProjectManagement = () => (
         <Footer />
       </div>
     </div>
-    </div>
-  )
+  </div>
+);
 
-export default ProjectManagement
+export default ProjectManagement;

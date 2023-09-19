@@ -11,7 +11,7 @@ import {
   Insight2,
   ResearchImpact,
   WhyUs,
-  Industries,
+  Industries2,
 } from "../components";
 
 const Research = () => (
@@ -56,9 +56,9 @@ const Research = () => (
         <WhyUs />
       </div>
     </div>
-    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-dimWhite`}>
       <div className={`${styles.boxWidth}`}>
-        <Industries />
+        <Industries2 />
       </div>
     </div>
     <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>

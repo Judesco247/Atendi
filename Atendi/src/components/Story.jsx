@@ -1,5 +1,6 @@
 import React from 'react'
 import { our_story } from '../assets'
+import { Link } from 'react-router-dom'
 
 const Story = () => (
   <div>
@@ -12,7 +13,7 @@ const Story = () => (
               Our Story
             </h1>
             <p className="w-[490px] text-color2 text-[13px] font-bodyfont-400 pt-5 pb-6">
-              Our journey began in 20XX when a team of passionate tech enthusiasts founded ATENDI with a
+              Our journey began in 2022 when a team of passionate tech enthusiasts founded ATENDI with a
               vision to transform businesses through innovative technology solutions. Over the years, we've
               evolved into a trusted partner, helping clients across industries harness the power of technology
               to drive growth and success. <br /><br />
@@ -26,7 +27,14 @@ const Story = () => (
               through advanced technology, shaping the future of customer engagement, and leaving a lasting
               positive mark on the industries we serve.
             </p>
-            <button className="w-[200px] py-3 px-3 bg-background text-white px-4 py-2 ">Book Consultation</button>
+            <button className="w-[200px] py-3 px-3 bg-background text-white px-4 py-2 ">
+            <Link
+              to="/contact-us"
+              className="ml-10 flex cursor-pointer text-center text-background font-bodyfont-400 text-white text-[13px] font-semibold"
+            >
+              Book Consultation
+            </Link>
+            </button>
           </div>
         </div>
       </div>
