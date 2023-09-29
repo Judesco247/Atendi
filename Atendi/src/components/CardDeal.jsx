@@ -13,8 +13,8 @@ import styles from "../style";
 const CardDeal = () => (
   <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
     <div className={`${styles.boxWidth}`}>
-      <div class="md:grid grid-cols-3 grid-rows-2 gap-4 mt-20 mb-20 bg-color7">
-        <div class="container mx-auto mb-10">
+      <div class="md:grid lg:grid-cols-3 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-3 gap-4 lg:mt-5 md:mt-28 mt-20 mb-20 bg-color7">
+        <div class="mb-10">
           <h5 className="ml-3 mb-4 text-color1 text-[25px] font-bold font-bodyfont-400">
             Our Services
           </h5>
@@ -86,7 +86,7 @@ const CardDeal = () => (
             knowledge to improve performance, productivity, and collaboration.
           </p>
           <div className="flex items-center mt-[70px]">
-          <Link
+            <Link
               to="/knowledge-management"
               className="ml-3 flex cursor-pointer text-background font-bodyfont-400 text-[13px] font-semibold"
             >
@@ -109,7 +109,7 @@ const CardDeal = () => (
             reducing errors.
           </p>
           <div className="flex items-center mt-[70px]">
-          <Link
+            <Link
               to="/integration"
               className="ml-3 flex cursor-pointer text-background font-bodyfont-400 text-[13px] font-semibold"
             >
@@ -131,7 +131,7 @@ const CardDeal = () => (
             execute projects, delivering them on time, on budget, and to scope.
           </p>
           <div className="flex items-center mt-[70px]">
-          <Link
+            <Link
               to="/project-management"
               className="ml-3 flex cursor-pointer text-background font-bodyfont-400 text-[13px] font-semibold"
             >

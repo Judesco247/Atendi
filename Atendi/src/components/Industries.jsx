@@ -14,7 +14,7 @@ import {
 import styles from "../style";
 
 const Industries = () => (
-  <div className="bg-color7">
+  <div className={`bg-color7  ${styles.flexStart}`}>
     <div className={`${styles.boxWidth}`}>
       <div className=" mt-20 hidden md:block">
         <div class="flex items-center justify-center">
@@ -23,15 +23,14 @@ const Industries = () => (
           </h1>
         </div>
         <div class="flex items-center justify-center p-4">
-          <p className="text-color2 text-center text-[13px] font-bodyfont-700 pb-6">
+          <p className="lg:w-[600px] md:w-[500px] text-color2 text-center text-[13px] font-bodyfont-700 pb-6">
             ATENDI provides cutting-edge technology solutions that are tailored
             to meet the unique needs of various industries, including
-            healthcare,
-            <br /> finance, and retail.
+            healthcare, finance, and retail.
           </p>
         </div>
 
-        <div className="left-[100px] h-[700px] relative mt-[-100px]">
+        <div className="h-[700px] lg:left-[105px] md:left-[-110px] flex items-center justify-center relative mt-[-100px]">
           <div className="w-150 h-150 left-[256px] top-[131px] absolute rounded-full border-2 border-neutral-200" />
           <div className="w-80 h-80 left-[420px] top-[256px] absolute">
             <div className="w-60 h-60 left-0 top-0 absolute rounded-full border-2 border-neutral-200" />
