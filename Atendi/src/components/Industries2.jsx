@@ -1,9 +1,18 @@
-import React from 'react'
-import styles from '../style'
-import { banking, education, government, health, hospitality, manufacture, retail, telecom } from '../assets'
+import React from "react";
+import styles from "../style";
+import {
+  banking,
+  education,
+  government,
+  health,
+  hospitality,
+  manufacture,
+  retail,
+  telecom,
+} from "../assets";
 
 const Industries2 = () => (
-    <div className="">
+  <div className="">
     <div className={`${styles.boxWidth}`}>
       <div className=" mt-20 hidden md:block">
         <div class="flex items-center justify-center">
@@ -20,104 +29,111 @@ const Industries2 = () => (
           </p>
         </div>
 
-        <div className="container mx-auto grid md:grid-cols-4 grid-cols-2 gap-4 mt-10 mb-28 mr-48">
-        <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
-        <img src={telecom} alt="bluetick" className=" w-12 h-12" />
-          <div className="ml-6 items-center">
-            <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
-            TELECOMMUNICATION
-            </h5>
-            <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-            Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet
-          </p>
+        <div className="container mx-auto grid lg:grid-cols-3 grid-cols-2 gap-4 mt-10 mb-28">
+          <div className="flex mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+            <img src={telecom} alt="bluetick" className=" w-12 h-12" />
+            <div className="ml-6 items-center">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+                TELECOMMUNICATION
+              </h5>
+              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
+                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
+                amet
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
-        <img src={education} alt="bluetick" className="w-12 h-12" />
-          <div className="ml-6 items-center">
-            <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
-            EDUCATION
-            </h5>
-            <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-          Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet
-          </p>
+          <div className="flex mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+            <img src={education} alt="bluetick" className="w-12 h-12" />
+            <div className="ml-6 items-center">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+                EDUCATION
+              </h5>
+              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
+                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
+                amet
+              </p>
+            </div>
           </div>
-          
-        </div>
 
-        <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
-        <img src={manufacture} alt="bluetick" className="w-12 h-12" />
-          <div className="ml-6 items-center">
-            <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
-            MANUFACTURING
-            </h5>
-          <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-          Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet
-          </p>
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+            <img src={manufacture} alt="bluetick" className="w-12 h-12" />
+            <div className="ml-6 items-center">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+                MANUFACTURING
+              </h5>
+              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
+                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
+                amet
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
-        <img src={health} alt="bluetick" className="w-12 h-12" />
-          <div className="ml-6 items-center">
-            <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
-            HEALTHCARE
-            </h5>
-          <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-          Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet
-          </p>
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+            <img src={health} alt="bluetick" className="w-12 h-12" />
+            <div className="ml-6 items-center">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+                HEALTHCARE
+              </h5>
+              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
+                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
+                amet
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
-        <img src={banking} alt="bluetick" className="w-12 h-12" />
-          <div className="ml-6 items-center">
-            <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
-            BANKING & FINANCE
-            </h5>
-          <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-          Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet
-          </p>
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+            <img src={banking} alt="bluetick" className="w-12 h-12" />
+            <div className="ml-6 items-center">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+                BANKING & FINANCE
+              </h5>
+              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
+                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
+                amet
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
-        <img src={retail} alt="bluetick" className="w-12 h-12" />
-          <div className="ml-6 items-center">
-            <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
-            RETAIL & E-COMMERCE
-            </h5>
-          <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-          Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet
-          </p>
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+            <img src={retail} alt="bluetick" className="w-12 h-12" />
+            <div className="ml-6 items-center">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+                RETAIL & E-COMMERCE
+              </h5>
+              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
+                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
+                amet
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
-        <img src={education} alt="bluetick" className="w-12 h-12" />
-          <div className="ml-6 items-center">
-            <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
-            HOSPITALITY & TOURISM
-            </h5>
-          <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-          Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet
-          </p>
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+            <img src={education} alt="bluetick" className="w-12 h-12" />
+            <div className="ml-6 items-center">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+                HOSPITALITY & TOURISM
+              </h5>
+              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
+                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
+                amet
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
-        <img src={education} alt="bluetick" className="w-12 h-12" />
-          <div className="ml-6 items-center">
-            <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
-            GOVERNMENT
-            </h5>
-          <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-          Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet
-          </p>
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+            <img src={education} alt="bluetick" className="w-12 h-12" />
+            <div className="ml-6 items-center">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+                GOVERNMENT
+              </h5>
+              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
+                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
+                amet
+              </p>
+            </div>
           </div>
         </div>
-      </div>
       </div>
 
       <div className="block md:hidden w-[428px] mt-10">
@@ -210,6 +226,6 @@ const Industries2 = () => (
       </div>
     </div>
   </div>
-  )
+);
 
-export default Industries2
+export default Industries2;

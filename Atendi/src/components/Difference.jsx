@@ -2,7 +2,7 @@ import React from "react";
 import { difference_image } from "../assets";
 
 const Difference = () => (
-  <div class="md:flex items-start mt-20 mb-[-20px] md:w-[1280px] w-[380px] md:h-[615px] h-[447px] ">
+  <div class="md:flex items-start mt-20 mb-[-20px] lg:w-[1280px] md:w-[700px] w-[380px] lg:h-[615px] md:h-[600px] h-[447px] ">
     <div class="hidden md:block md:flex-initial mr-4">
       <img src={difference_image} alt="Image" className="w-[580px] h-[550px]" />
     </div>

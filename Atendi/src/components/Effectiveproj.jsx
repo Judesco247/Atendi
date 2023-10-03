@@ -20,25 +20,21 @@ const Effectiveproj = () => (
       />
       <div className="flex-1 w-[554px] h-[429px] mt-[60px]">
         <p className="text-color2 text-[13px] font-bodyfont-400 w-[450px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit
-          amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula
-          cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet,
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Duis sit vehicula Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Duis sit vehicula
-          dui sit amet ligula cursus. dolor sit amet dolor adipiscing. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit amet
-          ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula
+          Successful projects require effective Project Management, and that's
+          precisely what we excel at. At Avante Consulting, our experienced
+          project managers bring proven methodologies and insights to ensure
+          your initiatives are delivered on time, within budget, and meet the
+          defined objectives. We take a holistic approach, overseeing every
+          aspect of the project from initiation to closure, while collaborating
+          with your teams to align the project's goals with your organization's
+          strategic vision. Our project management expertise extends across
+          various industries and domains, allowing us to adapt and tailor our
+          approach to suit your specific needs. We emphasize proactive risk
+          management, identifying potential obstacles and devising contingency
+          plans to mitigate any challenges that may arise. With a focus on clear
+          communication and stakeholder engagement, we keep you involved
+          throughout the process, empowering you with the knowledge to make
+          informed decisions and achieve project success.
         </p>
       </div>
     </div>

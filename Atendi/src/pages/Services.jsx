@@ -19,7 +19,7 @@ const Services = () => (
                 <Wedo />
             </div>
         </div>
-        <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`bg-color7`}>
             <div className={`${styles.boxWidth}`}>
                 <CardDeal />
             </div>

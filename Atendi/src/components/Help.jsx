@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 const Help = () => (
   <div>
-    <div class="hidden md:flex items-center">
+    <div class="hidden lg:flex md:flex items-center">
       <img
-        className="w-[580px] h-[600px] h-[375px]"
+        className="lg:w-[580px] w-[450px] lg:h-[600px] h-[550px]"
         src={help_image}
         alt="Image"
       />
-      <div className="md:w-[620px] w-[380px] md:h-[600px] h-[682px] p-24">
+      <div className="lg:w-[620px] w-[500px] lg:h-[600px] h-[550px] p-24 lg:mt-0 mt-[-100px] ">
         <h5 className="text-[25px] text-white font-bold font-bodyfont-400 px-2">
           <span>
             <img
@@ -21,7 +21,7 @@ const Help = () => (
           </span>
           How We Can Help
         </h5>
-        <p className="text-white text-[13px] font-bodyfont-400 pt-5 pb-6">
+        <p className="lg:mr-0 mr-[50px] text-white lg:text-[13px] text-[14px] font-bodyfont-400 pt-5 pb-6">
           Our expertise in knowledge management, business analysis, integration,
           and project management equips us to propel your business forward. We
           tailor innovative solutions to address your unique challenges, driving
@@ -33,7 +33,7 @@ const Help = () => (
           business's full potential and achieve lasting results.
         </p>
 
-        <div class="md:flex pt-5">
+        <div class="md:flex pt-5 lg:mr-0 mr-[30px]">
           <button className="w-[150px] py-3 px-3 text-[13px] font-bold text-white px-4 py-2 border-2 border-background font-bodyfont-400 ">
             <Link
               to="/services"

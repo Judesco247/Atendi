@@ -6,8 +6,8 @@ const Knowledgetype = () => (
     <h5 className="mt-10 mb-10 text-center text-color1 text-[25px] font-bold font-bodyfont-700">
       Types of Knowledge
     </h5>
-    <div class="md:grid grid-cols-3 mt-10 items-center">
-      <div class="container mx-auto md:w-[250px] w-[379px] h-[250px] bg-white border-t-4 border-background">
+    <div class="md:grid md:grid-cols-3 mt-10 items-center">
+      <div class="container mx-auto md:w-[250px] w-[379px] h-[200px] bg-white border-t-4 border-background">
         <h5 className="ml-3 text-color6 text-[15px] font-bold font-bodyfont-400 mt-5">
           <span>
             <img src={explicit} alt="bluetick" className="" />
@@ -21,7 +21,7 @@ const Knowledgetype = () => (
         </p>
       </div>
 
-      <div class="hidden md:block container mx-auto w-[250px] h-[250px] bg-white border-t-4 border-background">
+      <div class="container mx-auto md:w-[250px] w-[379px] h-[200px] bg-white border-t-4 border-background">
         <h5 className="ml-3 text-color6 text-[15px] font-bold font-bodyfont-400 mt-5">
           <span>
             <img src={knowledge} alt="bluetick" className="" />
@@ -35,7 +35,7 @@ const Knowledgetype = () => (
         </p>
       </div>
 
-      <div class="hidden md:block container mx-auto w-[250px] h-[250px] bg-white border-t-4 border-background">
+      <div class="container mx-auto md:w-[250px] w-[379px] h-[200px] bg-white border-t-4 border-background">
         <h5 className="ml-3 text-color6 text-[15px] font-bold font-bodyfont-400 mt-5">
           <span>
             <img src={tacit} alt="bluetick" className="" />

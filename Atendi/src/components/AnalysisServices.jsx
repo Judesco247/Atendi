@@ -3,7 +3,7 @@ import styles from "../style";
 import { arrow_logo } from "../assets";
 
 const AnalysisServices = () => (
-  <div className={`${styles.paddingX} ${styles.flexStart}`}>
+  <div className={`hidden md:block ${styles.paddingX} ${styles.flexStart}`}>
     <div className="mr-10 mt-10 md:w-full w-[428px] md:mb-20">
       <h5 className="mt-10 mb-4 text-center text-color1 text-[25px] font-bold font-bodyfont-700">
         Benefits Of Business Analysis Services
@@ -15,8 +15,8 @@ const AnalysisServices = () => (
         dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit
         amet ligula cursus. dolor sit amet dolor adipiscing.
       </p>
-      <div class="flex gap-8 items-center">
-        <div class="p-4 w-[300px] ">
+      <div class="ml-20 grid lg:grid-cols-4 grid-cols-2 gap-8 items-center">
+        <div class="p-4 w-[300px]">
           <img
             src={arrow_logo}
             alt="bluetick"
@@ -70,9 +70,6 @@ const AnalysisServices = () => (
             Lack Of Governance
           </p>
         </div>
-      </div>
-
-      <div class="flex gap-8 items-center mt-10 mb-10">
         <div class="p-4 w-[300px]">
           <img
             src={arrow_logo}

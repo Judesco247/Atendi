@@ -3,13 +3,13 @@ import styles from "../style";
 import { research3, research4 } from "../assets";
 
 const ResearchService = () => (
-  <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
-    <div className="mt-10 md:w-[1280px] w-[428px] md:h-[550px] h-[722px] md:mb-20">
+  <div className={`bg-color7 lg:${styles.paddingX} ${styles.flexStart}`}>
+    <div className="mt-10 lg:w-[1280px] md:w-[680px] w-[428px] lg:h-[550px] md:h-[980px] h-[722px] md:mb-20">
       <h5 className="mt-10 mb-10 text-center text-color1 text-[25px] font-bold font-bodyfont-700">
         Our User Research Services
       </h5>
-      <div class="md:grid grid-cols-3 mt-5 items-center">
-        <div class="container mx-auto md:w-[310px] w-[379px] h-[395px]">
+      <div class="md:grid lg:grid-cols-3 md:grid-cols-2 mt-5 items-center">
+        <div class="container mx-auto md:w-[310px] w-[330px] h-[395px]">
           <img
             src={research3}
             alt="bluetick"
@@ -58,7 +58,7 @@ const ResearchService = () => (
           </ul>
         </div>
 
-        <div class="hidden md:block container mx-auto w-[310px] h-[395px]">
+        <div class="hidden md:block container mx-auto w-[310px] h-[395px] lg:mt-0 md:mt-20">
           <img
             src={research3}
             alt="bluetick"

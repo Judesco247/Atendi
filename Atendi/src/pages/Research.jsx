@@ -46,7 +46,7 @@ const Research = () => (
         <Insight2 />
       </div>
     </div>
-    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <ResearchImpact />
       </div>

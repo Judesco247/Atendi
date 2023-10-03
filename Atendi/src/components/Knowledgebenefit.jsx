@@ -9,7 +9,7 @@ const Knowledgebenefit = () => (
           Benefits of Knowledge management
         </h1>
       </div>
-      <div className="flex items-center justify-center ">
+      <div className="flex items-center justify-center md:mt-0 mt-10">
         <p class="md:w-[950px] w-[380px] md:h-[52px] h-[130px] text-center text-[13px] text-color2 font-bodyfont-700 p-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
           vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
@@ -25,7 +25,7 @@ const Knowledgebenefit = () => (
               Improved decision-making
             </h5>
           </div>
-          <p className="ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
+          <p className="md:ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
             Knowledge management helps organizations make informed decisions by
             providing access to relevant and accurate information.
           </p>
@@ -38,7 +38,7 @@ const Knowledgebenefit = () => (
               Improved decision-making
             </h5>
           </div>
-          <p className="ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
+          <p className="md:ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
             Knowledge management helps organizations make informed decisions by
             providing access to relevant and accurate information.
           </p>
@@ -51,7 +51,7 @@ const Knowledgebenefit = () => (
               Improved decision-making
             </h5>
           </div>
-          <p className="ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
+          <p className="md:ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
             Knowledge management helps organizations make informed decisions by
             providing access to relevant and accurate information.
           </p>
@@ -64,7 +64,7 @@ const Knowledgebenefit = () => (
               Improved decision-making
             </h5>
           </div>
-          <p className="ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
+          <p className="md:ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
             Knowledge management helps organizations make informed decisions by
             providing access to relevant and accurate information.
           </p>
@@ -77,7 +77,7 @@ const Knowledgebenefit = () => (
               Improved decision-making
             </h5>
           </div>
-          <p className="ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
+          <p className="md:ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
             Knowledge management helps organizations make informed decisions by
             providing access to relevant and accurate information.
           </p>
@@ -90,7 +90,7 @@ const Knowledgebenefit = () => (
               Improved decision-making
             </h5>
           </div>
-          <p className="ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
+          <p className="md:ml-20 text-color2 text-[13px] font-bodyfont-400 mt-2">
             Knowledge management helps organizations make informed decisions by
             providing access to relevant and accurate information.
           </p>

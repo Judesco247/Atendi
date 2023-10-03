@@ -17,18 +17,21 @@ const Integrationscreen = () => (
           Maximizing Organizational Knowledge: A Knowledge Management Screen
         </h2>
         <p className="text-color2 text-[13px] font-bodyfont-400 w-[450px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit
-          amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula
-          cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet,
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Duis sit vehicula
+          At Atendi Consulting, our Implementation Services go beyond just
+          software installation; we are your trusted partners in transforming
+          your business processes and systems. Our expert team collaborates
+          closely with your organization to ensure a seamless integration of
+          innovative solutions tailored to your unique requirements. With an
+          in-depth understanding of the latest technologies and industry best
+          practices, we optimize your operations and workflows to drive
+          efficiency and boost productivity. Our approach to implementation
+          revolves around meticulous planning, execution, and
+          post-implementation support. We manage the entire process with
+          precision, providing regular updates and transparent communication to
+          keep you informed throughout the journey. Whether you are upgrading
+          your existing systems or adopting cutting-edge solutions, we make sure
+          that the transition is smooth, minimizing disruption and maximizing
+          the value you gain from your investment.
         </p>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const BusProcess = () => (
-  <div class="ml-96 items-start mt-20 mb-[-20px] md:w-[1280px] w-[380px] md:h-[615px] h-[447px] ">
+  <div class="lg:ml-96 md:ml-40 md:flex items-start mt-20 mb-[-20px] lg:w-[1280px] md:w-[700px] w-[380px] lg:h-[615px] md:h-[600px] h-[447px] ">
     <div className="md:flex-grow md:w-[580px] w-[380px] md:h-[600px] h-[447px] mt-20">
       <h1 className="ml-10 mb-4 text-color1 md:text-[25px] text-[20px] font-bold font-bodyfont-400">
         Process Of Business Analysis

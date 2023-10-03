@@ -4,7 +4,7 @@ import { leadership_image1, leadership_image2, leadership_image3 } from '../asse
 const Leadership = () => (
   <div className='md:container mx-auto mb-20'>
     <h5 className='ml-3 mt-20 text-color1 text-[25px] font-bold font-bodyfont-700'>Our Leadership</h5>
-    <div class="md:grid grid-cols-3 grid-rows-2 gap-1 mt-5 items-center">
+    <div class="md:grid lg:grid-cols-3 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-3 gap-1 mt-5 items-center">
 
       <div class="container mx-auto p-4">
         <img src={leadership_image1} alt="bluetick" className="" />

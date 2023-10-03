@@ -3,7 +3,7 @@ import styles from "../style";
 import { arrow_logo } from "../assets";
 
 const ResearchImpact = () => (
-  <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
+  <div className={`${styles.paddingX} ${styles.flexStart}`}>
     <div className="mt-10 md:w-[1280px] w-[428px] md:mb-20">
       <h5 className="mt-10 mb-4 text-center text-color1 text-[25px] font-bold font-bodyfont-700">
         How User Research Impacts Your Business
@@ -12,7 +12,7 @@ const ResearchImpact = () => (
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
         vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
       </p>
-      <div class="flex gap-8 items-center">
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-8 md:gap-12 items-center">
         <div class="p-4 w-[300px] ">
           <img
             src={arrow_logo}
@@ -60,9 +60,6 @@ const ResearchImpact = () => (
             vehicula dui sit amet ligula cursus. dolor sit amet dolor
           </p>
         </div>
-      </div>
-
-      <div class="flex gap-8 items-center mt-10 mb-10">
         <div class="p-4 w-[300px]">
           <img
             src={arrow_logo}

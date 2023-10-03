@@ -18,12 +18,12 @@ import {
 } from "../assets";
 
 const Toolest = () => (
-  <div className=" md:w-[800px] w-[428px] md:h-[414px] h-[722px] md:mb-20 mt-10">
+  <div className=" md:w-[800px] w-[428px] md:h-[414px] h-[422px] md:mb-20 mt-10">
     <h5 className="mt-10 mb-10 text-center text-color1 text-[25px] font-bold font-bodyfont-700">
       Our Toolset
     </h5>
     <div class="md:ml-16 md:grid grid-cols-5 mt-10 items-center">
-      <div class="container mx-auto md:w-[250px] w-[379px] h-[52px]">
+      <div class="container mx-auto md:w-[250px] w-[200px] h-[52px]">
         <img
           src={toolset1}
           alt="bluetick"
@@ -48,7 +48,7 @@ const Toolest = () => (
     </div>
 
     <div class="md:ml-16 md:grid grid-cols-5 mt-10 items-center">
-      <div class="container mx-auto md:w-[250px] w-[379px] h-[52px]">
+      <div class="container mx-auto md:w-[250px] w-[200px] h-[52px]">
         <img
           src={toolset6}
           alt="bluetick"
@@ -73,7 +73,7 @@ const Toolest = () => (
     </div>
 
     <div class="md:ml-16 md:grid grid-cols-5 mt-10 items-center">
-      <div class="container mx-auto md:w-[250px] w-[379px] h-[52px]">
+      <div class="container mx-auto md:w-[250px] w-[200px] h-[52px]">
         <img
           src={toolset11}
           alt="bluetick"
