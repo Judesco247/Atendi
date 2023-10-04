@@ -31,17 +31,17 @@ const Research = () => (
         <Insight />
       </div>
     </div>
-    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+    {/* <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <ResearchService />
       </div>
-    </div>
+    </div> */}
     <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Testimonials />
       </div>
     </div>
-    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+    {/* <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Insight2 />
       </div>
@@ -55,7 +55,7 @@ const Research = () => (
       <div className={`${styles.boxWidth}`}>
         <WhyUs />
       </div>
-    </div>
+    </div> */}
     <div className={`bg-dimWhite`}>
       <div className={`${styles.boxWidth}`}>
         <Industries2 />

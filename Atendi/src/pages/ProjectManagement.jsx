@@ -41,7 +41,7 @@ const ProjectManagement = () => (
         <Testimonials />
       </div>
     </div>
-    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+    {/* <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={``}>
         <ServiceArea />
       </div>
@@ -55,7 +55,7 @@ const ProjectManagement = () => (
       <div className={`${styles.boxWidth}`}>
         <ManageProject />
       </div>
-    </div>
+    </div> */}
     <div className={`bg-dimWhite`}>
       <div className={`${styles.boxWidth}`}>
         <Industries2 />

@@ -86,8 +86,8 @@ const Stats = () => (
             </div>
           </div>
         </div>
-        <div className="hidden md:block w-[750px] h-[911px] float-right">
-          <img src={about} alt="Image" />
+        <div className="hidden md:block w-full h-[911px] float-right">
+          <img src={about} alt="Image" className="w-full h-[580px]" />
         </div>
       </div>
     </div>

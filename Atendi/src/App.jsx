@@ -9,7 +9,7 @@ import { createBrowserRouter, Route, RouterProvider, Routes, } from "react-route
 import Home from './pages/Home';
 
 const App = () => (
-  <div className='bg-color7 w-full overflow-hidden'>
+  <div className='bg-dimWhite w-full overflow-hidden'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />

@@ -6,11 +6,11 @@ const Help = () => (
   <div>
     <div class="hidden lg:flex md:flex items-center">
       <img
-        className="lg:w-[580px] w-[450px] lg:h-[600px] h-[550px]"
+        className="lg:w-full w-[450px] lg:h-[600px] h-[550px]"
         src={help_image}
         alt="Image"
       />
-      <div className="lg:w-[620px] w-[500px] lg:h-[600px] h-[550px] p-24 lg:mt-0 mt-[-100px] ">
+      <div className="lg:w-full w-[500px] lg:h-[600px] h-[550px] p-24 lg:mt-0 mt-[-100px] ">
         <h5 className="text-[25px] text-white font-bold font-bodyfont-400 px-2">
           <span>
             <img

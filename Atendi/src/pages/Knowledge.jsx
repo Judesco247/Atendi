@@ -30,17 +30,17 @@ const Knowledge = () => (
         <ManageScreen />
       </div>
     </div>
-    <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
+    {/* <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
       <div className={``}>
         <Knowledgetype />
       </div>
-    </div>
+    </div> */}
     <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Testimonials />
       </div>
     </div>
-    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+    {/* <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Knowledgebenefit />
       </div>
@@ -49,7 +49,7 @@ const Knowledge = () => (
       <div className={`${styles.boxWidth}`}>
         <WhyUs />
       </div>
-    </div>
+    </div> */}
     <div className={`bg-dimWhite`}>
       <div className={`${styles.boxWidth}`}>
         <Industries2 />

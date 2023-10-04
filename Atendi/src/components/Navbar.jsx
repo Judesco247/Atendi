@@ -19,7 +19,7 @@ const Navbar = () => {
       />
       <img src={logo} alt="logo" className="w-77 h-[81px]" />
       <ul
-        className={`bg-dimWhite backdrop-blur-md  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 ${
+        className={`bg-dimWhite backdrop-blur-lg  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 ${
           !open ? "right-[-100%] " : "right-0"
         }`}
       >

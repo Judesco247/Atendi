@@ -34,7 +34,7 @@ const BusAnalyst = () => (
         <BusAnalysis />
       </div>
     </div>
-    <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
+    {/* <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
       <div className={``}>
         <Certification />
       </div>
@@ -43,13 +43,13 @@ const BusAnalyst = () => (
       <div className={`${styles.boxWidth}`}>
         <AnalysisServices />
       </div>
-    </div>
+    </div> */}
     <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Testimonials />
       </div>
     </div>
-    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+    {/* <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={``}>
         <Toolest />
       </div>
@@ -73,7 +73,7 @@ const BusAnalyst = () => (
       <div className={`${styles.boxWidth}`}>
         <BusServices />
       </div>
-    </div>
+    </div> */}
     <div className={`bg-dimWhite`}>
       <div className={`${styles.boxWidth}`}>
         <Industries2 />
