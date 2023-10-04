@@ -17,11 +17,11 @@ import GetStarted from "./GetStarted";
 import { Link } from "react-router-dom";
 
 const Hero = () => (
-  <div className={`${styles.boxWidth}`}>
+  <div className={``}>
     {/* <div className="hidden md:block bg-cover bg-center bg-hero-bg w-full"> */}
     <div className="hidden md:block">
       <img
-        className="lg:w-[1600px] lg:h-[650px] md:w-full md:h-full bg-cover"
+        className="lg:w-full lg:h-[650px] md:w-full md:h-full bg-cover"
         src={home_banner}
         alt="banner"
       />

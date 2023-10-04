@@ -20,7 +20,7 @@ function Home() {
     <div>
       <Hero />
       <Stats />
-      <Business />
+      {/* <Business /> */}
       <Plans />
       <Billing />
       <CardDeal />
@@ -28,8 +28,8 @@ function Home() {
       <Clients />
       <Industries />
       <Testimonials />
-      <Comments />
-      <FeatureNews />
+      {/* <Comments />
+      <FeatureNews /> */}
       <Contact />
     </div>
   );

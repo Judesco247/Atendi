@@ -34,11 +34,11 @@ const About_us = () => (
                 <Industries />
             </div>
         </div>
-        <div className={`bg-dimWhite`}>
+        {/* <div className={`bg-dimWhite`}>
             <div className={``}>
                 <Business />
             </div>
-        </div>
+        </div> */}
         <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
                 <Leadership />
