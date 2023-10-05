@@ -14,8 +14,8 @@ import {
 import styles from "../style";
 
 const Industries = () => (
-  <div className={`bg-color7  ${styles.flexStart}`}>
-    <div className={`${styles.boxWidth}`}>
+  <div className={`bg-color7`}>
+    <div className={``}>
       <div className=" mt-20 hidden md:block">
         <div class="flex items-center justify-center">
           <h1 className="ml-3 mb-4 text-color1 text-[25px] font-bold font-bodyfont-400">

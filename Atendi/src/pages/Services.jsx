@@ -3,7 +3,7 @@ import styles from '../style'
 import { Navbar, Serviceheader, Wedo, CardDeal, Difference, Contact, Footer } from '../components'
 
 const Services = () => (
-    <div className='bg-color7 w-full overflow-hidden'>
+    <div className='bg-dimWhite w-full overflow-hidden'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
                 <Navbar />

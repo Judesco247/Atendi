@@ -12,7 +12,7 @@ import styles from "../style";
 
 const CardDeal = () => (
   <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
-    <div className={`${styles.boxWidth}`}>
+    <div className={``}>
       <div class="md:grid lg:grid-cols-3 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-3 gap-4 lg:mt-5 md:mt-28 mt-20 mb-20 bg-color7">
         <div class="mb-10">
           <h5 className="ml-3 mb-4 text-color1 text-[25px] font-bold font-bodyfont-400">

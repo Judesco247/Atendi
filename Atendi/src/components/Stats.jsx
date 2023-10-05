@@ -6,7 +6,7 @@ const Stats = () => (
   <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
     <div className="lg:w-full lg:h-[750px] md:w-full md:h-[680px]">
       <div className="flex md:flex-row flex-cols-2 sm:py-16 py-6">
-        <div className="mt-[-20px]">
+        <div className="mt-[-20px]lg:w-[600px]">
           <p className="md:ml-12 md:w-[450px] w-[328px] text-background text-[15px] font-bold mb-4 font-bodyfont-400">
             Our Journey as a Technology Consulting Company
           </p>
@@ -86,7 +86,7 @@ const Stats = () => (
             </div>
           </div>
         </div>
-        <div className="hidden md:block w-full h-[911px] float-right">
+        <div className="hidden md:block w-[424px] h-[911px] float-right">
           <img src={about} alt="Image" className="w-full h-[580px]" />
         </div>
       </div>
