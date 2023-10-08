@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Story = () => (
   <div>
-    <div class="hidden md:flex items-center p-16 lg:w-[1060px] w-[650px] lg:h-[921px] h-[820px]">
+    <div class="hidden md:flex items-center lg:w-[1060px] w-[650px] lg:h-[921px] h-[820px]">
       <div class="relative">
         <img
           className="w-[620px] h-[570px] top-[111px] left-[160px] hidden lg:block"
@@ -55,7 +55,7 @@ const Story = () => (
       </div>
     </div>
 
-    <div className="block md:hidden w-[428px] h-[650px] mt-20 mb-20">
+    <div className="block md:hidden w-[428px] h-[650px] mt-20 mb-20 ml-20">
       <div className="w-[380px] h-[600px]">
         <h1 className="text-color1 text-[25px] font-bold font-bodyfont-400 mb-10">
           Our Story

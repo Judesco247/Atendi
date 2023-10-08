@@ -52,7 +52,7 @@ const Contact = () => {
   return (
     <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
       {/* <div className={`${styles.boxWidth}`}> */}
-      <div class="hidden md:flex mb-20 lg:w-[1600px] md:w-[400px] lg:mr-0 md:mr-[350px]">
+      <div class="hidden md:flex mb-20 lg:w-[1200px] md:w-[400px] lg:mr-0 md:mr-[350px]">
         <div class="ml-3 p-4 w-1/2">
           <h1 class="text-[30px] text-white font-bold font-bodyfont-700 mb-4">
             We’d love to hear from you

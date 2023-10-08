@@ -5,32 +5,32 @@ import { Navbar, Aboutheader, Story, Philosophy, Help, Business, Leadership, Con
 const About_us = () => (
     <div className='bg-dimWhite w-full overflow-hidden'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Navbar />
             </div>
         </div>
         <div className={`${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Aboutheader />
             </div>
         </div>
         <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Story />
             </div>
         </div>
         <div className='bg-color7'>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Philosophy />
             </div>
         </div>
         <div className='bg-color0'>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Help />
             </div>
         </div>
         <div className="bg-color7">
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Industries />
             </div>
         </div>
@@ -40,17 +40,17 @@ const About_us = () => (
             </div>
         </div> */}
         <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Leadership />
             </div>
         </div>
-        <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+        <div className={`bg-color0 `}>
+            <div className={``}>
                 <Contact />
             </div>
         </div>
         <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Footer />
             </div>
         </div>

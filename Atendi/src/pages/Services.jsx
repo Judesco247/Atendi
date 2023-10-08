@@ -5,37 +5,37 @@ import { Navbar, Serviceheader, Wedo, CardDeal, Difference, Contact, Footer } fr
 const Services = () => (
     <div className='bg-dimWhite w-full overflow-hidden'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Navbar />
             </div>
         </div>
         <div className={`${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Serviceheader />
             </div>
         </div>
         <div className="bg-color7">
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Wedo />
             </div>
         </div>
         <div className={`bg-color7`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <CardDeal />
             </div>
         </div>
         <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Difference />
             </div>
         </div>
-        <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+        <div className={`bg-color0`}>
+            <div className={``}>
                 <Contact />
             </div>
         </div>
         <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Footer />
             </div>
         </div>

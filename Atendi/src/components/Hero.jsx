@@ -37,9 +37,9 @@ const Hero = () => (
           seamless customer experience, helping businesses of all sizes
           achieve their goals with ease
         </p>
-        <Link to="/">
+        <Link to="/contact-us">
           <button className="ml-3 w-[200px] py-3 px-3 bg-background text-white px-4 py-2 absolute lg:mt-96 md:mt-[450px] font-bodyfont">
-            Learn More
+          Book Consultation
           </button>
         </Link>{" "}
         {/* <h5 className="ml-96 px-4 py-2 rounded absolute mt-[-350px] text-color4">Trusted by startups and Fortune 500 companies</h5> */}
@@ -86,7 +86,7 @@ const Hero = () => (
           sizes achieve their goals with ease
         </p>
         <br />
-        <Link to="/">
+        <Link to="/contact-us">
           <button className="ml-6 w-[350px] h-[56px] py-3 px-3 bg-background text-white px-4 py-2 absolute mt-96 font-bodyfont">
             Book Consultation
           </button>

@@ -17,7 +17,7 @@ const Navbar = () => {
         className="md:hidden  fixed right-5 cursor-pointer z-20 top-6 text-black"
         onClick={() => setopen(!open)}
       />
-      <img src={logo} alt="logo" className="w-77 h-[81px]" />
+      <img src={logo} alt="logo" className="w-77 h-[81px] md:ml-20 ml-10" />
       <ul
         className={`bg-dimWhite backdrop-blur-lg  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 ${
           !open ? "right-[-100%] " : "right-0"

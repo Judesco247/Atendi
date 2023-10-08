@@ -51,7 +51,7 @@ const Contactwhite = () => {
   };
   return (
   <div className={`${styles.paddingX} ${styles.flexStart}`}>
-    <div class="hidden md:flex mb-20 lg:w-[1600px] md:w-[400px] lg:mr-0 md:mr-[380px]">
+    <div class="hidden md:flex mb-20 lg:w-[1200px] md:w-[400px] lg:mr-0 md:mr-[380px]">
       <div class="ml-3 p-4 w-1/2">
         <h1 class="text-[30px] text-color9 font-bold font-bodyfont-700 mb-4">
           We’d love to hear from you

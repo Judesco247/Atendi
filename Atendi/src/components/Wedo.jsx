@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Wedo = () => (
-  <div className=' mt-20 '>
+  <div className=''>
     <div class="flex items-center justify-center">
-      <h1 className='ml-3 mb-4 text-color1 text-[25px] font-bold font-bodyfont-400'>What We Do</h1>
+      <h1 className='ml-3 mb-4 mt-20 text-color1 text-[25px] font-bold font-bodyfont-400'>What We Do</h1>
     </div>
     <div class="flex items-center justify-center p-4">
       <p className="w-[650px] text-color2 text-center text-[13px] font-bodyfont-700 pb-6">

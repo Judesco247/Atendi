@@ -5,17 +5,17 @@ import { Navbar, Contactheader, Contactwhite, Discover, Contact, Footer } from '
 const Contacts = () => (
     <div className='bg-dimWhite w-full overflow-hidden'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Navbar />
             </div>
         </div>
         <div className={`${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Contactheader />
             </div>
         </div>
-        <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+        <div className={`bg-dimWhite`}>
+            <div className={``}>
                 <Contactwhite />
             </div>
         </div>
@@ -24,13 +24,13 @@ const Contacts = () => (
                 <Discover />
             </div>
         </div>
-        <div className={`bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+        <div className={`bg-color0`}>
+            <div className={``}>
                 <Contact />
             </div>
         </div>
         <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+            <div className={``}>
                 <Footer />
             </div>
         </div>

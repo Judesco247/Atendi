@@ -22,7 +22,7 @@ const Difference = () => (
           </h1>
         </div>
 
-        <div className="absolute top-3 right-3 text-background transition-transform duration-500 rotate-0 peer-checked:rotate-180">
+        <div className="absolute block top-3 right-3 text-background transition-transform duration-500 rotate-0 peer-checked:rotate-180">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

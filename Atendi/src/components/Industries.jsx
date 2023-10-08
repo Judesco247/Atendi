@@ -16,9 +16,9 @@ import styles from "../style";
 const Industries = () => (
   <div className={`bg-color7`}>
     <div className={``}>
-      <div className=" mt-20 hidden md:block">
+      <div className="hidden md:block">
         <div class="flex items-center justify-center">
-          <h1 className="ml-3 mb-4 text-color1 text-[25px] font-bold font-bodyfont-400">
+          <h1 className="ml-3 mb-4 mt-20 text-color1 text-[25px] font-bold font-bodyfont-400">
             Our Industries
           </h1>
         </div>
@@ -171,7 +171,7 @@ const Industries = () => (
 
       <div className="block md:hidden w-[428px] mt-10">
         <div class="flex items-center justify-center">
-          <h1 className="mb-4 text-color1 text-[25px] font-bold font-bodyfont-400">
+          <h1 className="mr-4 mb-4 text-color1 text-[25px] font-bold font-bodyfont-400">
             Our Industries
           </h1>
         </div>

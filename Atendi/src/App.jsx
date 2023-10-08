@@ -11,7 +11,7 @@ import Home from './pages/Home';
 const App = () => (
   <div className='bg-dimWhite w-full overflow-hidden'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={``}>
         <Navbar />
       </div>
     </div>
@@ -22,7 +22,7 @@ const App = () => (
         
 
     <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={``}>
         {/* <CTA /> */}
         <Footer />
       </div>
