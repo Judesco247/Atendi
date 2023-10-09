@@ -26,4 +26,6 @@
 
 .industries {
     align-items: center;
+    /* width: 600px; */
+    height: 700px;
 }

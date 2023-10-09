@@ -3,7 +3,7 @@ import { check1, about } from "../assets";
 import styles from "../style";
 
 const Stats = () => (
-  <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+  <div className={`bg-dimWhite ml-52`}>
     <div className="lg:w-full lg:h-[750px] md:w-full md:h-[680px]">
       <div className="flex md:flex-row flex-cols-2 sm:py-16 py-6">
         <div className="mt-[-20px]lg:w-[600px]">
