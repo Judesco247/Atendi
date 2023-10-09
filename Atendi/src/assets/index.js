@@ -135,8 +135,14 @@ import tacit from "./tacit.png";
 import intscreen from "./intscreen.png";
 import effective from "./effective.png";
 import Frame from "./Frame.png";
+import check from "./check.svg";
+import chevronUp from "./chevron-up.svg";
+import chevronDown from "./chevron-down.svg";
 
 export {
+  chevronUp,
+  chevronDown,
+  check,
   Frame,
   effective,
   intscreen,

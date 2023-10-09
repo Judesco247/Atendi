@@ -11,6 +11,7 @@ import {
   banking,
   logo,
 } from "../assets";
+import "../App.css";
 import styles from "../style";
 
 const Industries = () => (
@@ -30,7 +31,7 @@ const Industries = () => (
           </p>
         </div>
 
-        <div className="h-[700px] lg:left-[105px] md:left-[-110px] flex items-center justify-center relative mt-[-100px]">
+        <div className="industries h-[700px] flex xl:ml-28 lg:ml-6 justify-center relative mt-[-100px]">
           <div className="w-150 h-150 left-[256px] top-[131px] absolute rounded-full border-2 border-neutral-200" />
           <div className="w-80 h-80 left-[420px] top-[256px] absolute">
             <div className="w-60 h-60 left-0 top-0 absolute rounded-full border-2 border-neutral-200" />

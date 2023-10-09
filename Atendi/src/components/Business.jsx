@@ -34,3 +34,54 @@ const Business = () => (
 )
 
 export default Business
+
+
+
+
+// import React, { useState } from 'react';
+
+// function CollapsibleItem({ title }) {
+//   const [isCollapsed, setIsCollapsed] = useState(true);
+
+//   const toggleCollapse = () => {
+//     setIsCollapsed(!isCollapsed);
+//   };
+
+//   return (
+//     <div className="border rounded p-4 mb-4">
+//       <div className="flex justify-between items-center">
+//         <h3 className="text-lg font-semibold">{title}</h3>
+//         <button
+//           className="text-blue-500 hover:underline focus:outline-none"
+//           onClick={toggleCollapse}
+//         >
+//           {isCollapsed ? 'Expand' : 'Collapse'}
+//         </button>
+//       </div>
+//       <div className={`mt-2 ${isCollapsed ? 'hidden' : 'block'}`}>
+//         {/* Content that appears when the item is expanded */}
+//         <p>This is the content of the {title} item.</p>
+//       </div>
+//     </div>
+//   );
+// }
+
+// function App() {
+//   const items = [
+//     { title: 'Item 1' },
+//     { title: 'Item 2' },
+//     { title: 'Item 3' },
+//     { title: 'Item 4' },
+//   ];
+
+//   return (
+//     <div className="container mx-auto mt-8">
+//       {items.map((item, index) => (
+//         <CollapsibleItem key={index} title={item.title} />
+//       ))}
+//       {/* Content below collapsible items */}
+//     </div>
+//   );
+// }
+
+// export default App;
