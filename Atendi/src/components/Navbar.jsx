@@ -8,7 +8,7 @@ const Navbar = () => {
   const [activePage, setActivePage] = useState(location.pathname);
   return (
     <nav
-      className="container flex pt-3 justify-between items-center navbar lg:w-[1280px] w-[428px] lg:h-[81px] h-[75px] md:w-[850px] mb-5
+      className="container flex pt-3 justify-between items-center navbar lg:w-[1440px] w-[428px] lg:h-[81px] h-[75px] md:w-[850px] mb-5
        l-[160px] t-[10px]"
     >
       {/* <nav className="flex items-center justify-between pt-5"></nav> */}

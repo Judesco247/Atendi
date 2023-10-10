@@ -3,7 +3,7 @@ import { check1, about } from "../assets";
 import styles from "../style";
 
 const Stats = () => (
-  <div className={`bg-dimWhite ml-52`}>
+  <div className={`bg-dimWhite lg:ml-52 md:ml-10 ml-6`}>
     <div className="lg:w-full lg:h-[750px] md:w-full md:h-[680px]">
       <div className="flex md:flex-row flex-cols-2 sm:py-16 py-6">
         <div className="mt-[-20px]lg:w-[600px]">
@@ -86,7 +86,7 @@ const Stats = () => (
             </div>
           </div>
         </div>
-        <div className="hidden md:block w-[424px] h-[911px] float-right">
+        <div className="hidden lg:block w-[424px] h-[911px] float-right">
           <img src={about} alt="Image" className="w-full h-[580px]" />
         </div>
       </div>
