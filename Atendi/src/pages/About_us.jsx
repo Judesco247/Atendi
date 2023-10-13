@@ -5,7 +5,7 @@ import { Navbar, Aboutheader, Story, Philosophy, Help, Business, Leadership, Con
 const About_us = () => (
     <div className='bg-dimWhite w-full overflow-hidden'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={``}>
+            <div className={`${styles.boxWidth}`}>
                 <Navbar />
             </div>
         </div>

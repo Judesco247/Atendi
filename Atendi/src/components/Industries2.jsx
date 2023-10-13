@@ -10,10 +10,11 @@ import {
   retail,
   telecom,
 } from "../assets";
+import "../App.css";
 
 const Industries2 = () => (
   <div className="">
-    <div className={`${styles.boxWidth}`}>
+    <div className={`inset-0 flex items-center justify-center`}>
       <div className=" mt-20 hidden md:block">
         <div class="flex items-center justify-center">
           <h1 className="ml-3 mb-4 text-color1 text-[25px] font-bold font-bodyfont-400">
@@ -29,7 +30,7 @@ const Industries2 = () => (
           </p>
         </div>
 
-        <div className="container mx-auto grid lg:grid-cols-3 grid-cols-2 gap-4 mt-10 mb-28">
+        <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 mt-10 mb-28">
           <div className="flex mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
             <img src={telecom} alt="bluetick" className=" w-12 h-12" />
             <div className="ml-6 items-center">

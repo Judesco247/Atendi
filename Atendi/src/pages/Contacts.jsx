@@ -5,7 +5,7 @@ import { Navbar, Contactheader, Contactwhite, Discover, Contact, Footer } from '
 const Contacts = () => (
     <div className='bg-dimWhite w-full overflow-hidden'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={``}>
+            <div className={`${styles.boxWidth}`}>
                 <Navbar />
             </div>
         </div>

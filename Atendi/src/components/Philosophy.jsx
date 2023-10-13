@@ -7,9 +7,9 @@ const Philosophy = () => (
       <h1 class="text-center text-color1 text-[25px] font-bold font-bodyfont-700 mt-4">
         Our Philosophy
       </h1>
-      <p class="lg:ml-[300px] md:ml-28 ml-6 lg:w-[620px] md:w-[530px] w-[350px] lg:h-[52px] md:h-[70px] h-[104px] text-center text-color2 text-[13px] font-bodyfont-700 mt-5">
+      <p class="text-center text-color2 text-[13px] font-bodyfont-700 mt-5">
         As a technology-led company, information is at our core. We are
-        continually thinking about solutions that positively impact customer
+        continually thinking about solutions that positively <br /> impact customer
         relationships of ours and clients for an advanced world.
       </p>
 

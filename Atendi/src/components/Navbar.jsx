@@ -8,7 +8,7 @@ const Navbar = () => {
   const [activePage, setActivePage] = useState(location.pathname);
   return (
     <nav
-      className="container flex pt-3 justify-between items-center navbar lg:w-[1440px] w-[428px] lg:h-[81px] h-[75px] md:w-[850px] mb-5
+      className="flex pt-3 justify-between items-center navbar lg:w-[1280px] w-[428px] lg:h-[81px] h-[75px] md:w-[850px] mb-5
        l-[160px] t-[10px]"
     >
       {/* <nav className="flex items-center justify-between pt-5"></nav> */}
@@ -17,7 +17,7 @@ const Navbar = () => {
         className="md:hidden  fixed right-5 cursor-pointer z-20 top-6 text-black"
         onClick={() => setopen(!open)}
       />
-      <img src={logo} alt="logo" className="w-77 h-[81px] md:ml-20 ml-10" />
+      <img src={logo} alt="logo" className="w-77 h-[81px] md:ml-0 ml-10" />
       <ul
         className={`bg-dimWhite backdrop-blur-lg  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 ${
           !open ? "right-[-100%] " : "right-0"
@@ -72,7 +72,7 @@ const Navbar = () => {
           </Link>
         </li> */}
         <li className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
-          <button className="w-[150px] py-3 px-3 text-[13px] font-bold text-color0 px-4 py-2 border-2 border-color0 hover:text-white hover:bg-color0 font-bodyfont-400 ">
+          <button className="w-[150px] py-3 px-3 text-[13px] font-bold text-color0 border-2 border-color0 hover:text-white hover:bg-color0 font-bodyfont-400 ">
             <Link
               to="/contact-us"
               className="cursor-pointer font-Barlow font-bodyfont-700 text-sm inline-block"

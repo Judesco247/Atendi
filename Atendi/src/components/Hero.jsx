@@ -38,7 +38,7 @@ const Hero = () => (
           achieve their goals with ease
         </p>
         <Link to="/contact-us">
-          <button className="ml-3 w-[200px] py-3 px-3 bg-background text-white px-4 py-2 absolute lg:mt-96 md:mt-[450px] font-bodyfont">
+          <button className="ml-3 w-[200px] py-3 px-3 bg-background text-white  absolute lg:mt-96 md:mt-[450px] font-bodyfont">
           Book Consultation
           </button>
         </Link>{" "}
@@ -87,7 +87,7 @@ const Hero = () => (
         </p>
         <br />
         <Link to="/contact-us">
-          <button className="ml-6 w-[350px] h-[56px] py-3 px-3 bg-background text-white px-4 py-2 absolute mt-96 font-bodyfont">
+          <button className="ml-6 w-[350px] h-[56px] py-3 px-3 bg-background text-white absolute mt-96 font-bodyfont">
             Book Consultation
           </button>
         </Link>{" "}

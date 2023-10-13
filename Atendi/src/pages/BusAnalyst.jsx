@@ -25,7 +25,7 @@ const BusAnalyst = () => (
       </div>
     </div>
     <div className={`${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={``}>
         <Busbanner />
       </div>
     </div>
@@ -74,7 +74,7 @@ const BusAnalyst = () => (
         <BusServices />
       </div>
     </div> */}
-    <div className={`bg-dimWhite`}>
+    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Industries2 />
       </div>

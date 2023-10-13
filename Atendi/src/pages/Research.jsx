@@ -22,7 +22,7 @@ const Research = () => (
       </div>
     </div>
     <div className={`${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={``}>
         <Researchbanner />
       </div>
     </div>
@@ -56,7 +56,7 @@ const Research = () => (
         <WhyUs />
       </div>
     </div> */}
-    <div className={`bg-dimWhite`}>
+    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Industries2 />
       </div>

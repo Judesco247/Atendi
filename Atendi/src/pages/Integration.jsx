@@ -22,7 +22,7 @@ const Integration = () => (
       </div>
     </div>
     <div className={`${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={``}>
         <Integrationbanner />
       </div>
     </div>
@@ -56,7 +56,7 @@ const Integration = () => (
         <Integrationbenefit />
       </div>
     </div> */}
-    <div className={`bg-dimWhite`}>
+    <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Industries2 />
       </div>

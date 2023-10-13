@@ -63,9 +63,11 @@ import Industryexpert from "./Industryexpert";
 import ServiceArea from "./ServiceArea";
 import ManageProject from "./ManageProject";
 import Industries2 from "./Industries2";
+import ScrollToTop from "./ScrollToTop";
 
 
 export {
+  ScrollToTop,
   Industries2,
   ManageProject,
   ServiceArea,

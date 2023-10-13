@@ -6,7 +6,7 @@ import App from '../components/Business'
 const Services = () => (
     <div className='bg-dimWhite w-full overflow-hidden'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={``}>
+            <div className={`${styles.boxWidth}`}>
                 <Navbar />
             </div>
         </div>

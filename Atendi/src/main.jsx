@@ -15,65 +15,70 @@ import BusAnalyst from './pages/BusAnalyst.jsx'
 import Knowledge from './pages/Knowledge.jsx'
 import Integration from './pages/Integration.jsx'
 import ProjectManagement from './pages/ProjectManagement.jsx'
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 
 const queryClient = new QueryClient();
 const router = createBrowserRouter([
+  
   {
+    exact: true,
     path: "/",
     element: <App />,
   },
   {
-    path: "about-us",
+    exact: true,
+    path: "/about-us",
     element: <About />,
   },
   {
-    path: "services",
+    path: "/services",
     element: <Services />,
   },
   {
-    path: "news",
+    path: "/news",
     element: <News />,
   },
   {
-    path: "case-studies",
+    path: "/case-studies",
     element: <Case />,
   },
   {
-    path: "contact-us",
+    path: "/contact-us",
     element: <Contacts />,
   },
   {
-    path: "full-details",
+    path: "/full-details",
     element: <FullNews />,
   },
   {
-    path: "user-research",
+    path: "/user-research",
     element: <Research />,
   },
   {
-    path: "business-Analyst",
+    path: "/business-Analyst",
     element: <BusAnalyst />,
   },
   {
-    path: "knowledge-management",
+    path: "/knowledge-management",
     element: <Knowledge />,
   },
   {
-    path: "integration",
+    path: "/integration",
     element: <Integration />,
   },
   {
-    path: "project-management",
+    path: "/project-management",
     element: <ProjectManagement />,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <QueryClientProvider client={queryClient}>
+    {/* <ScrollToTop/> */}
     <RouterProvider router={router} />
     </QueryClientProvider>
-  </React.StrictMode>,
+  // </React.StrictMode>,
 )
       

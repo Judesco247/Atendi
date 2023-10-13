@@ -164,12 +164,12 @@ const Footer = () => (
       </div>
       <div class="w-full flex justify-between items-center md:flex-row flex-col pt-6">
         {/* <div className="container mx-auto p-2"> */}
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
           <img src={globe} alt="globe" className="mr-2" />
           <p className="text-color8 text-[14px] font-semibold font-bodyfont-400">
             Nigerian English | EN
           </p>
-        </div>
+        </div> */}
 
         {/* <div></div> */}
 

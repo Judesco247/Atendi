@@ -3,20 +3,29 @@ import styles from './style'
 import {
   Navbar, Hero, Stats, Business, Billing, CardDeal,
   Testimonials, Clients, Plans, CTA, Industries, Contact, FeatureNews, Footer,
-  Comments
+  Comments,
+  ScrollToTop
 } from './components';
-import { createBrowserRouter, Route, RouterProvider, Routes, } from "react-router-dom";
+import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes, } from "react-router-dom";
 import Home from './pages/Home';
+import Contacts from './pages/Contacts';
 
-const App = () => (
+const App = () => {
+  return(
+    // <BrowserRouter>
+    // <Switch >
+
   <div className='bg-dimWhite w-full overflow-hidden'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={``}>
+      <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
+    
 <Routes>
-  <Route path='/' element={<Home/>}/>
+{/* <ScrollToTop /> */}
+  <Route exact path='/' element={<Home/>}/>
+  <Route path='contact-us' element={<Contacts />}/>
 
 </Routes>
         
@@ -29,6 +38,9 @@ const App = () => (
     </div>
 
   </div>
-);
+  // </Switch>
+  // </BrowserRouter>
+)
+  };
 
 export default App

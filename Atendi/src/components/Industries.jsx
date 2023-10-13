@@ -15,23 +15,23 @@ import "../App.css";
 import styles from "../style";
 
 const Industries = () => (
-  <div className={`lg:ml-[8rem]`}>
+  <div className={`flex items-center justify-center`}>
     <div className={``}>
       <div className="hidden md:block">
         <div class="flex items-center justify-center">
-          <h1 className="lg:mr-24 mb-4 mt-20 text-color1 text-[25px] font-bold font-bodyfont-400">
+          <h1 className="text-center mb-4 mt-20 text-color1 text-[25px] font-bold font-bodyfont-400">
             Our Industries
           </h1>
         </div>
         <div class="flex items-center justify-center p-4">
-          <p className="lg:mr-20 md:mr-[-50px] lg:w-[600px] md:w-[500px] text-color2 text-center text-[13px] font-bodyfont-700 pb-6">
+          <p className="lg:w-[600px] md:w-[500px] text-color2 text-center text-[13px] font-bodyfont-700 pb-6">
             ATENDI provides cutting-edge technology solutions that are tailored
             to meet the unique needs of various industries, including
             healthcare, finance, and retail.
           </p>
         </div>
 
-        <div className="industries flex lg:ml-32 md:ml-[-110px] relative">
+        <div className="industries right-[220px] justify-center flex relative mt-[-90px]">
           <div className="w-150 h-150 left-[256px] top-[131px] absolute rounded-full border-2 border-neutral-200" />
           <div className="w-80 h-80 left-[420px] top-[256px] absolute">
             <div className="w-60 h-60 left-0 top-0 absolute rounded-full border-2 border-neutral-200" />
