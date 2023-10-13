@@ -4,11 +4,6 @@ import { Navbar, Aboutheader, Story, Philosophy, Help, Business, Leadership, Con
 
 const About_us = () => (
     <div className='bg-dimWhite w-full overflow-hidden'>
-        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
-                <Navbar />
-            </div>
-        </div>
         <div className={`${styles.flexStart}`}>
             <div className={``}>
                 <Aboutheader />
@@ -39,19 +34,14 @@ const About_us = () => (
                 <Business />
             </div>
         </div> */}
-        <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+        {/* <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
             <div className={``}>
                 <Leadership />
             </div>
-        </div>
+        </div> */}
         <div className={`bg-color0 `}>
             <div className={``}>
                 <Contact />
-            </div>
-        </div>
-        <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={``}>
-                <Footer />
             </div>
         </div>
     </div>

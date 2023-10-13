@@ -15,17 +15,17 @@ import BusAnalyst from './pages/BusAnalyst.jsx'
 import Knowledge from './pages/Knowledge.jsx'
 import Integration from './pages/Integration.jsx'
 import ProjectManagement from './pages/ProjectManagement.jsx'
-import ScrollToTop from './components/ScrollToTop.jsx'
-
+// import ScrollToTop from './components/ScrollToTop.jsx'
+import Home from './pages/Home.jsx' 
 
 const queryClient = new QueryClient();
-const router = createBrowserRouter([
+export const router = [
   
-  {
-    exact: true,
-    path: "/",
-    element: <App />,
-  },
+  // {
+  //   exact: true,
+  //   path: "/",
+  //   element: <Home />,
+  // },
   {
     exact: true,
     path: "/about-us",
@@ -71,14 +71,16 @@ const router = createBrowserRouter([
     path: "/project-management",
     element: <ProjectManagement />,
   },
-]);
+];
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <QueryClientProvider client={queryClient}>
     {/* <ScrollToTop/> */}
-    <RouterProvider router={router} />
+    {/* <Provider > */}
+    <App />
+    {/* </Provider> */}
     </QueryClientProvider>
-  // </React.StrictMode>,
+  </React.StrictMode>,
 )
       

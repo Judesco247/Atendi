@@ -4,7 +4,7 @@ import styles from "../style";
 
 const Stats = () => (
   <div className={`bg-dimWhite inset-0 flex items-center justify-center`}>
-    <div className="mb-[-290px]">
+    <div className="lg:mb-[-290px]">
       <div className="flex md:flex-row flex-cols-2 sm:py-16 py-6">
         <div className="mt-[-20px]lg:w-[600px]">
           <p className="md:ml-12 md:w-[450px] w-[328px] text-background text-[15px] font-bold mb-4 font-bodyfont-400">

@@ -4,16 +4,18 @@ import {
   Navbar, Hero, Stats, Business, Billing, CardDeal,
   Testimonials, Clients, Plans, CTA, Industries, Contact, FeatureNews, Footer,
   Comments,
-  ScrollToTop
+  ScrollToTop,
 } from './components';
 import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes, } from "react-router-dom";
 import Home from './pages/Home';
 import Contacts from './pages/Contacts';
+import { router } from './main';
 
 const App = () => {
   return(
-    // <BrowserRouter>
-    // <Switch >
+    <BrowserRouter>
+    <ScrollToTop />
+    {/* <Switch > */}
 
   <div className='bg-dimWhite w-full overflow-hidden'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -23,9 +25,12 @@ const App = () => {
     </div>
     
 <Routes>
-{/* <ScrollToTop /> */}
+
   <Route exact path='/' element={<Home/>}/>
-  <Route path='contact-us' element={<Contacts />}/>
+  {router.map((route, index) => (
+    <Route key={index} path={route.path} element={route.element}/>
+  ))}
+  
 
 </Routes>
         
@@ -38,8 +43,8 @@ const App = () => {
     </div>
 
   </div>
-  // </Switch>
-  // </BrowserRouter>
+  {/* </Switch> */}
+  </BrowserRouter>
 )
   };
 

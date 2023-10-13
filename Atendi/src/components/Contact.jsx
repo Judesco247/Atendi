@@ -267,7 +267,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-[150px] py-3 px-3 text-[13px] font-bold bg-background text-white px-4 py-2 font-bodyfont-400"
+              className="w-[150px] py-3 px-3 text-[13px] font-bold bg-background text-white font-bodyfont-400"
             >
               Send Request
             </button>
@@ -280,10 +280,9 @@ const Contact = () => {
           We’d love to hear from you
         </h1>
         <p className="text-white text-[16px] w-[365px] h-[127px] items-center font-bodyfont-700 mt-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-          dolor sit amet,{" "}
+          We're here to answer any questions you have about our services. Let's
+          start a conversation and explore how ATENDI can help your business
+          thrive through innovative technology solutions.
         </p>
 
         <form className="mt-14" onSubmit={handleSubmit}>

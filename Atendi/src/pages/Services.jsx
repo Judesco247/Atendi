@@ -5,11 +5,6 @@ import App from '../components/Business'
 
 const Services = () => (
     <div className='bg-dimWhite w-full overflow-hidden'>
-        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
-                <Navbar />
-            </div>
-        </div>
         <div className={`${styles.flexStart}`}>
             <div className={``}>
                 <Serviceheader />
@@ -38,11 +33,6 @@ const Services = () => (
         <div className={`bg-color0`}>
             <div className={``}>
                 <Contact />
-            </div>
-        </div>
-        <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-            <div className={``}>
-                <Footer />
             </div>
         </div>
     </div>

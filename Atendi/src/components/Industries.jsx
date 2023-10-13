@@ -31,7 +31,7 @@ const Industries = () => (
           </p>
         </div>
 
-        <div className="industries right-[220px] justify-center flex relative mt-[-90px]">
+        <div className="industries lg:right-[220px] right-[260px] justify-center flex relative mt-[-90px]">
           <div className="w-150 h-150 left-[256px] top-[131px] absolute rounded-full border-2 border-neutral-200" />
           <div className="w-80 h-80 left-[420px] top-[256px] absolute">
             <div className="w-60 h-60 left-0 top-0 absolute rounded-full border-2 border-neutral-200" />
@@ -161,7 +161,7 @@ const Industries = () => (
           <div className="left-[750px] top-[510px] absolute text-color1 text-[14px] font-bold font-bodyfont-400 leading-loose tracking-tight">
             RETAIL & E-COMMERCE
           </div>
-          <div className="left-[470px] top-[610px] absolute text-color1 text-[14px] font-bold font-bodyfont-400 leading-loose tracking-tight">
+          <div className="lg:left-[470px] left-[510px] top-[610px] absolute text-color1 text-[14px] font-bold font-bodyfont-400 leading-loose tracking-tight">
             HOSPITALITY & TOURISM
           </div>
           <div className="left-[460px] top-[110px] absolute text-color1 text-[14px] font-bold font-bodyfont-400 leading-loose tracking-tight">
