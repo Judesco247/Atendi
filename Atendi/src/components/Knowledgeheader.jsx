@@ -18,13 +18,12 @@ const Knowledgeheader = () => (
           Knowledge Management
         </h1>
         <p className="ml-3 w-[550px] text-[15px] mb-4 font-bodyfont-400 absolute text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+          We help businesses capture, organize, and manage their internal
+          knowledge to improve performance, productivity, and collaboration.
         </p>
         <div className="mt-32">
-          <Link to="/">
-            <button className="ml-3 w-[200px] py-3 px-3 bg-background text-white px-4 py-2 absolute font-bodyfont">
+          <Link to="/contact-us">
+            <button className="ml-3 w-[200px] py-3 px-3 bg-background text-white absolute font-bodyfont">
               Speak to a Consultant
             </button>
           </Link>{" "}
@@ -33,7 +32,7 @@ const Knowledgeheader = () => (
     </div>
 
     <div className="block md:hidden w-[428px] h-[404px] bg-color0 mb-40 mt-4">
-      <div className="w-[380px] h-[483.97px]">
+      <div className="ml-6 w-[380px] h-[483.97px]">
         <h4 className="ml-6 text-background text-[14]  font-secondaryfont mb-4 mt-10 absolute">
           SERVICES
         </h4>
@@ -41,13 +40,12 @@ const Knowledgeheader = () => (
           Knowledge Management
         </h1>
         <p className="ml-6 w-[363px] h-[120px] text-[15px] mb-4 font-bodyfont-400 absolute text-color3 mt-40">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+          We help businesses capture, organize, and manage their internal
+          knowledge to improve performance, productivity, and collaboration.
         </p>
         <br />
-        <Link to="/">
-          <button className="ml-6 w-[350px] h-[56px] py-3 px-3 bg-background text-white px-4 py-2 absolute mt-72 font-bodyfont">
+        <Link to="/contact-us">
+          <button className="ml-6 w-[350px] h-[56px] py-3 px-3 bg-background text-white absolute mt-72 font-bodyfont">
             Speak to a Consultant
           </button>
         </Link>{" "}

@@ -26,7 +26,7 @@ const Footer = () => (
               businesses of all sizes achieve their goals with ease
             </p>
           </div>
-          <div className="mr-6 flex-[2.0] mr-8 w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+          <div className="mr-6 flex-[2.0] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
             <div className="flex flex-col ss:my-0 my-4 min-w-[150px]">
               <h4 className="text-[12px] text-color1 font-bold font-bodyfont-700">
                 {" "}
@@ -42,7 +42,7 @@ const Footer = () => (
                   About us{" "}
                 </Link>
                 <Link
-                  to="/"
+                  to="/about-us"
                   className={`text-color2 text-[13px] font-bodyfont-700 hover hover:text-background pt-5 cursor-pointer block`}
                 >
                   Leadership{" "}
@@ -71,31 +71,31 @@ const Footer = () => (
               </h4>
               <ul className="list-none mb-4 block">
                 <Link
-                  to=""
+                  to="/integration"
                   className={`text-color2 text-[13px] font-bodyfont-700 hover hover:text-background pt-5 cursor-pointer block`}
                 >
                   Integration{" "}
                 </Link>
                 <Link
-                  to=""
+                  to="/knowledge-management"
                   className={`text-color2 text-[13px] font-bodyfont-700 hover hover:text-background pt-5 cursor-pointer block`}
                 >
                   Knowledge Management{" "}
                 </Link>
                 <Link
-                  to=""
+                  to="/business-Analyst"
                   className={`text-color2 text-[13px] font-bodyfont-700 hover hover:text-background pt-5 cursor-pointer block`}
                 >
                   Business Analysis{" "}
                 </Link>
                 <Link
-                  to=""
+                  to="/project-management"
                   className={`text-color2 text-[13px] font-bodyfont-700 hover hover:text-background pt-5 cursor-pointer block`}
                 >
                   Project Management{" "}
                 </Link>
                 <Link
-                  to=""
+                  to="/user-research"
                   className={`text-color2 text-[13px] font-bodyfont-700 hover hover:text-background pt-5 cursor-pointer block`}
                 >
                   User Research{" "}
@@ -197,19 +197,19 @@ const Footer = () => (
 
         <div class="md:grid grid-cols-3 gap-4 text-right">
           <Link
-            to="/clients/agencies"
+            to="/"
             className={`text-color2 text-[13px] font-bodyfont-700 hover hover:text-background pt-5 cursor-pointer block`}
           >
             Cookie Settings{" "}
           </Link>
           <Link
-            to="/clients/agencies"
+            to="/"
             className={`text-color2 text-[13px] font-bodyfont-700 hover hover:text-background pt-5 cursor-pointer block`}
           >
             Legal Information{" "}
           </Link>
           <Link
-            to="/clients/agencies"
+            to="/"
             className={`text-color2 text-[13px] font-bodyfont-700 hover hover:text-background pt-5 cursor-pointer block`}
           >
             Privacy Policy{" "}

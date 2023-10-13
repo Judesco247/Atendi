@@ -127,7 +127,7 @@ const Contact = () => {
                   value={emailData.fname}
                   onChange={handleChange}
                   class="w-[270px] border border-gray-400 p-2"
-                  placeholder="Enter your name"
+                  placeholder="Enter your First Name"
                 />
               </div>
               <div class="mb-4 ml-3">
@@ -144,7 +144,7 @@ const Contact = () => {
                   value={emailData.lname}
                   onChange={handleChange}
                   class="w-[270px] border border-gray-400 p-2"
-                  placeholder="Enter your email"
+                  placeholder="Enter your Last Name"
                 />
               </div>
             </div>
@@ -164,7 +164,7 @@ const Contact = () => {
                   value={emailData.phone}
                   onChange={handleChange}
                   class="w-[270px] border border-gray-400 p-2"
-                  placeholder="Enter your name"
+                  placeholder="Enter your Phone Number"
                 />
               </div>
               <div class="mb-4 ml-3">
@@ -201,7 +201,7 @@ const Contact = () => {
                   value={emailData.service}
                   onChange={handleChange}
                   class="w-[270px] border border-gray-400 p-2"
-                  placeholder="Enter your name"
+                  placeholder="Enter your Subject"
                 />
               </div>
               <div class="mb-4 ml-3">
@@ -218,7 +218,7 @@ const Contact = () => {
                   value={emailData.company}
                   onChange={handleChange}
                   class="w-[270px] border border-gray-400 p-2"
-                  placeholder="Enter your email"
+                  placeholder="Enter your Company's Name"
                 />
               </div>
             </div>
@@ -296,7 +296,7 @@ const Contact = () => {
               name="fname"
               onChange={handleChange}
               class="w-[355px] h-[50px] border border-gray-400 p-2"
-              placeholder="Enter your name"
+              placeholder="Enter your First Name"
             />
           </div>
           <div class="mb-4">
@@ -309,7 +309,7 @@ const Contact = () => {
               name="lname"
               onChange={handleChange}
               class="w-[355px] h-[50px] border border-gray-400 p-2"
-              placeholder="Enter your email"
+              placeholder="Enter your Last Name"
             />
           </div>
 
@@ -323,7 +323,7 @@ const Contact = () => {
               name="phone"
               onChange={handleChange}
               class="w-[355px] h-[50px] border border-gray-400 p-2"
-              placeholder="Enter your name"
+              placeholder="Enter your Phone Number"
             />
           </div>
           <div class="mb-4">
@@ -353,7 +353,7 @@ const Contact = () => {
               name="service"
               onChange={handleChange}
               class="w-[355px] h-[50px] border border-gray-400 p-2"
-              placeholder="Enter your name"
+              placeholder="Enter your Subject"
             />
           </div>
           <div class="mb-4">
@@ -369,7 +369,7 @@ const Contact = () => {
               name="company"
               onChange={handleChange}
               class="w-[355px] h-[50px] border border-gray-400 p-2"
-              placeholder="Enter your email"
+              placeholder="Enter your Company's Name"
             />
           </div>
 

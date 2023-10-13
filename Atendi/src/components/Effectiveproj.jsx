@@ -2,26 +2,24 @@ import React from "react";
 import { effective, line } from "../assets";
 
 const Effectiveproj = () => (
-  <div className="mt-[-100px] items-center">
-    <div className="flex items-center justify-center">
-      <img src={line} alt="bluetick" className="mr-2 mb-2" />
-    </div>
-    <div className="flex items-center justify-center">
-      <h5 className="mb-4 text-center text-color1 text-[25px] font-bold font-bodyfont-700 w-[550px]">
-        Effective Project Management: Delivering Results on Time and Within
-        Budget
-      </h5>
-    </div>
-    <div class="ml-10 md:grid grid-cols-2 items-center">
+  <div className="md:mt-[-60px] mb-20 items-center">
+    <div class="flex">
       <img
         src={effective}
         alt="Image"
-        className=" w-[450px] h-[300px] ml-10 mt-[-50px]"
+        className="hidden lg:block mt-[-86px] w-[600px] h-[450px]"
       />
-      <div className="flex-1 w-[554px] h-[429px] mt-[60px]">
-        <p className="text-color2 text-[13px] font-bodyfont-400 w-[450px]">
+      <div className="flex-1 md:w-[554px] h-[429px] mt-[-90px] lg:ml-0 md:ml-[150px]">
+        <h2 className="text-[25px] text-color1 font-bold font-bodyfont-400 md:w-[400px] w-[350px] mb-5">
+          <span>
+            <img src={line} alt="bluetick" className="mr-2 mb-2" />
+          </span>
+          Effective Project Management: Delivering Results on Time and Within
+          Budget
+        </h2>
+        <p className="text-color2 text-[13px] font-bodyfont-400 md:w-[450px] w-[350px]">
           Successful projects require effective Project Management, and that's
-          precisely what we excel at. At Avante Consulting, our experienced
+          precisely what we excel at. At Atendi Consulting, our experienced
           project managers bring proven methodologies and insights to ensure
           your initiatives are delivered on time, within budget, and meet the
           defined objectives. We take a holistic approach, overseeing every

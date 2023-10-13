@@ -18,13 +18,13 @@ const Researchbanner = () => (
           User Research
         </h1>
         <p className="ml-3 w-[550px] text-[15px] mb-4 font-bodyfont-400 absolute text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+          Our user research service provides you with insights into how your
+          customers interact with your product or service, allowing you to make
+          informed decisions and create a better user experience.
         </p>
         <div className="mt-32">
-          <Link to="/">
-            <button className="ml-3 w-[200px] py-3 px-3 bg-background text-white px-4 py-2 absolute font-bodyfont">
+          <Link to="/contact-us">
+            <button className="ml-3 w-[200px] py-3 px-3 bg-background text-white  absolute font-bodyfont">
               Speak to a Consultant
             </button>
           </Link>{" "}
@@ -41,13 +41,13 @@ const Researchbanner = () => (
           User Research
         </h1>
         <p className="ml-6 w-[363px] h-[120px] text-[15px] mb-4 font-bodyfont-400 absolute text-color3 mt-40">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+          Our user research service provides you with insights into how your
+          customers interact with your product or service, allowing you to make
+          informed decisions and create a better user experience.
         </p>
         <br />
-        <Link to="/">
-          <button className="ml-6 w-[350px] h-[56px] py-3 px-3 bg-background text-white px-4 py-2 absolute mt-72 font-bodyfont">
+        <Link to="/contact-us">
+          <button className="ml-6 w-[350px] h-[56px] py-3 px-3 bg-background text-white absolute mt-72 font-bodyfont">
             Speak to a Consultant
           </button>
         </Link>{" "}

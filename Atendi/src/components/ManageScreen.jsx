@@ -17,18 +17,18 @@ const ManageScreen = () => (
           Maximizing Organizational Knowledge: A Knowledge Management Screen
         </h2>
         <p className="text-color2 text-[13px] font-bodyfont-400 md:w-[450px] w-[350px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit
-          amet ligula cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula
-          cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit amet,
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit
-          vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Duis sit vehicula
+          In a rapidly changing business landscape, staying ahead of the
+          competition requires a keen understanding of market trends and
+          customer preferences. Our Market Surveys provide you with valuable
+          data and strategic intelligence that empowers you to make
+          well-informed decisions. We design comprehensive survey methodologies
+          to gather relevant market information and industry insights. Our team
+          of skilled analysts interprets survey data to identify emerging
+          trends, customer sentiment, and potential opportunities for growth.
+          From market sizing and segmentation to competitor analysis, our Market
+          Surveys offer a comprehensive view of the market dynamics, helping you
+          align your business strategies to maximize profitability and
+          competitive advantage.
         </p>
       </div>
     </div>

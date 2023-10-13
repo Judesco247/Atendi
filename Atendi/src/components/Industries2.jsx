@@ -31,107 +31,75 @@ const Industries2 = () => (
         </div>
 
         <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 mt-10 mb-28">
-          <div className="flex mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+          <div className="flex mx-auto p-2 ml-12 bg-color7 w-[300px] h-[70px]">
             <img src={telecom} alt="bluetick" className=" w-12 h-12" />
             <div className="ml-6 items-center">
-              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400 mt-4">
                 TELECOMMUNICATION
               </h5>
-              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
-                amet
-              </p>
             </div>
           </div>
 
-          <div className="flex mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+          <div className="flex mx-auto p-2 ml-12 bg-color7 w-[300px] h-[70px]">
             <img src={education} alt="bluetick" className="w-12 h-12" />
             <div className="ml-6 items-center">
-              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400 mt-4">
                 EDUCATION
               </h5>
-              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
-                amet
-              </p>
             </div>
           </div>
 
-          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[70px]">
             <img src={manufacture} alt="bluetick" className="w-12 h-12" />
             <div className="ml-6 items-center">
-              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400 mt-4">
                 MANUFACTURING
               </h5>
-              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
-                amet
-              </p>
             </div>
           </div>
 
-          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[70px]">
             <img src={health} alt="bluetick" className="w-12 h-12" />
             <div className="ml-6 items-center">
-              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400 mt-4">
                 HEALTHCARE
               </h5>
-              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
-                amet
-              </p>
             </div>
           </div>
 
-          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[70px]">
             <img src={banking} alt="bluetick" className="w-12 h-12" />
             <div className="ml-6 items-center">
-              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400 mt-4">
                 BANKING & FINANCE
               </h5>
-              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
-                amet
-              </p>
             </div>
           </div>
 
-          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[70px]">
             <img src={retail} alt="bluetick" className="w-12 h-12" />
             <div className="ml-6 items-center">
-              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400 mt-4">
                 RETAIL & E-COMMERCE
               </h5>
-              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
-                amet
-              </p>
             </div>
           </div>
 
-          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[70px]">
             <img src={education} alt="bluetick" className="w-12 h-12" />
             <div className="ml-6 items-center">
-              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400 mt-4">
                 HOSPITALITY & TOURISM
               </h5>
-              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
-                amet
-              </p>
             </div>
           </div>
 
-          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[100px]">
+          <div className="flex container mx-auto p-2 ml-12 bg-color7 w-[300px] h-[70px]">
             <img src={education} alt="bluetick" className="w-12 h-12" />
             <div className="ml-6 items-center">
-              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400">
+              <h5 className="text-color6 text-[14px] font-bold font-bodyfont-400 mt-4">
                 GOVERNMENT
               </h5>
-              <p className="text-color2 text-[13px] w-60 font-bodyfont-400 mt-2">
-                Cursus. dolor sit amet dolor adipiscing. Lorem ipsum dolor sit
-                amet
-              </p>
             </div>
           </div>
         </div>
