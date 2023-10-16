@@ -1,6 +1,8 @@
 import React from "react";
 import { check1, about } from "../assets";
 import styles from "../style";
+// import { Link } from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link"
 
 const Stats = () => (
   <div className={`bg-dimWhite inset-0 flex items-center justify-center`}>
@@ -24,9 +26,11 @@ const Stats = () => (
             setting and achieving business milestones
           </p>
           <br />
+          <Link to="#service">
           <button className="md:ml-12 py-2 px-6 border-2 border-background text-background text-[12px] font-bold font-bodyfont">
             Learn More
           </button>
+          </Link>
 
           <div className="container mx-auto md:flex flex-cols-4 gap-4 mt-[80px]">
             <div className="w-[346px] mb-6">

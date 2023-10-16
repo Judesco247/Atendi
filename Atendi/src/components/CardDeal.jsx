@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import styles from "../style";
 
 const CardDeal = () => (
+  <div id="service">
   <div className={`bg-color7 ${styles.paddingX} ${styles.flexStart}`}>
     <div className={``}>
       <div class="md:grid lg:grid-cols-3 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-3 gap-4 lg:mt-5 md:mt-28 mt-20 mb-20 bg-color7">
@@ -142,6 +143,7 @@ const CardDeal = () => (
         </div>
       </div>
     </div>
+  </div>
   </div>
 );
 
