@@ -4,7 +4,7 @@ import axios from 'axios'
 export const News = async () => {
     try {
       const { data } = await axios.get(
-        "https://atendi-backend.onrender.com/api/posts", {headers: { 'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YjcyMmQxZGE4ZmRmOGRjYzc0MzRhZiIsImlhdCI6MTY5MzM5ODU4MiwiZXhwIjoxNjk1OTkwNTgyfQ.C4M0FCxTP3b0kj-5YSj-K1lYhiIWdXX1PwZZi3OROvY` }
+        "https://atendi-backend.onrender.com/api/posts", {headers: { 'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YzVkMjBhYjM1NWVkNDZmM2EzYmMxMyIsImlhdCI6MTcwNzQ4NzMyOSwiZXhwIjoxNzEwMDc5MzI5fQ.-ShcSR_ZEj1GAlJn5yIv-oWELTS5-qg8DvrEZ1grCbg` }
     });
       console.log(data);
       return data;
@@ -20,7 +20,7 @@ export const News = async () => {
     console.log(id)
     try {
       const { data } = await axios.get(
-        `https://atendi-backend.onrender.com/api/posts/${id}`, {headers: { 'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YjcyMmQxZGE4ZmRmOGRjYzc0MzRhZiIsImlhdCI6MTY5MzM5ODU4MiwiZXhwIjoxNjk1OTkwNTgyfQ.C4M0FCxTP3b0kj-5YSj-K1lYhiIWdXX1PwZZi3OROvY` }
+        `https://atendi-backend.onrender.com/api/posts/${id}`, {headers: { 'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YzVkMjBhYjM1NWVkNDZmM2EzYmMxMyIsImlhdCI6MTcwNzQ4NzMyOSwiZXhwIjoxNzEwMDc5MzI5fQ.-ShcSR_ZEj1GAlJn5yIv-oWELTS5-qg8DvrEZ1grCbg` }
     });
       console.log(data);
       return data;
