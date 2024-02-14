@@ -15,7 +15,7 @@ const News = () => (
                 <Latest />
             </div>
         </div>
-        <div className={`-mt-[900px] bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`md:-mt-[900px] bg-color0 ${styles.paddingX} ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
                 <Contact />
             </div>
